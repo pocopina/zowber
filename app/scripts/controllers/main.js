@@ -8,10 +8,7 @@
  * Controller of the zowberApp
  */
 angular.module('zowberApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl',
+  	function ($scope) {
+  		console.log($scope);
   });
