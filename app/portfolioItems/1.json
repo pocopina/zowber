@@ -1,0 +1,13 @@
+{
+  "id" : 1,
+  "name" : "Mortgage App",
+  "type" : "caseStudy",
+  "labels" : [
+    {
+      "name" : "Label One"
+    },
+    {
+      "name" : "Label Two"
+    }
+  ]
+}

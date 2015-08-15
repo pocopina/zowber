@@ -1,0 +1,16 @@
+{
+  "id" : 3,
+  "name" : "Responsive Sales",
+  "type" : "caseStudy",
+  "labels" : [
+    {
+      "name" : "Responsive"
+    },
+    {
+      "name" : "Information Architecture"
+    },
+    {
+      "name" : "HTML/CSS/JS/ Prototype"
+    }
+  ]
+}

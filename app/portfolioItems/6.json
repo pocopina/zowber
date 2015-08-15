@@ -1,0 +1,13 @@
+{
+  "id" : 6,
+  "name" : "Item 3",
+  "type" : "work",
+  "labels" : [
+    {
+      "name" : "Label One"
+    },
+    {
+      "name" : "Label Two"
+    }
+  ]
+}

@@ -44,10 +44,10 @@ module.exports = function (grunt) {
           livereload: '<%= connect.options.livereload %>'
         }
       },
-      jsTest: {
-        files: ['test/spec/{,*/}*.js'],
-        tasks: ['newer:jshint:test', 'karma']
-      },
+      //jsTest: {
+      // files: ['test/spec/{,*/}*.js'],
+      //  tasks: ['newer:jshint:test', 'karma']
+      //},
       compass: {
         files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
         tasks: ['compass:server', 'autoprefixer:server']
@@ -62,7 +62,8 @@ module.exports = function (grunt) {
         files: [
           '<%= yeoman.app %>/{,*/}*.html',
           '.tmp/styles/{,*/}*.css',
-          '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
+          '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+          'portfolioItems/*.json'
         ]
       }
     },
@@ -72,7 +73,7 @@ module.exports = function (grunt) {
       options: {
         port: 9000,
         // Change this to '0.0.0.0' to access the server from outside.
-        hostname: 'localhost',
+        hostname: '0.0.0.0',
         livereload: 35729
       },
       livereload: {
@@ -89,11 +90,15 @@ module.exports = function (grunt) {
                 '/app/styles',
                 connect.static('./app/styles')
               ),
+              connect().use(
+                '/app/portfolioItems',
+                connect.static('./app/styles')
+              ),
               connect.static(appConfig.app)
             ];
           }
         }
-      },
+      },/*
       test: {
         options: {
           port: 9001,
@@ -109,7 +114,7 @@ module.exports = function (grunt) {
             ];
           }
         }
-      },
+      },*/
       dist: {
         options: {
           open: true,
@@ -129,13 +134,13 @@ module.exports = function (grunt) {
           'Gruntfile.js',
           '<%= yeoman.app %>/scripts/{,*/}*.js'
         ]
-      },
-      test: {
-        options: {
-          jshintrc: 'test/.jshintrc'
-        },
-        src: ['test/spec/{,*/}*.js']
-      }
+      }//,
+      //test: {
+      //  options: {
+      //    jshintrc: 'test/.jshintrc'
+      //  },
+      //  src: ['test/spec/{,*/}*.js']
+      //}
     },
 
     // Empties folders to start fresh
@@ -184,7 +189,7 @@ module.exports = function (grunt) {
       app: {
         src: ['<%= yeoman.app %>/index.html'],
         ignorePath:  /\.\.\//
-      },
+      },/*
       test: {
         devDependencies: true,
         src: '<%= karma.unit.configFile %>',
@@ -200,7 +205,7 @@ module.exports = function (grunt) {
               }
             }
           }
-      },
+      },*/
       sass: {
         src: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
         ignorePath: /(\.\.\/){1,2}bower_components\//
@@ -395,7 +400,8 @@ module.exports = function (grunt) {
             '.htaccess',
             '*.html',
             'images/{,*/}*.{webp}',
-            'styles/fonts/{,*/}*.*'
+            'styles/fonts/{,*/}*.*',
+            'portfolioItems/*.json'
           ]
         }, {
           expand: true,
@@ -406,6 +412,11 @@ module.exports = function (grunt) {
           expand: true,
           cwd: '.',
           src: 'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*',
+          dest: '<%= yeoman.dist %>'
+        }, {
+          expand: true,
+          cwd: '.',
+          src: 'bower_components/fontawesome/fonts/*',
           dest: '<%= yeoman.dist %>'
         }]
       },
@@ -422,9 +433,9 @@ module.exports = function (grunt) {
       server: [
         'compass:server'
       ],
-      test: [
-        'compass'
-      ],
+      //test: [
+      //  'compass'
+      //],
       dist: [
         'compass:dist',
         'imagemin',
@@ -433,12 +444,12 @@ module.exports = function (grunt) {
     },
 
     // Test settings
-    karma: {
+    /*karma: {
       unit: {
         configFile: 'test/karma.conf.js',
         singleRun: true
       }
-    }
+    }*/
   });
 
 
@@ -462,14 +473,14 @@ module.exports = function (grunt) {
     grunt.task.run(['serve:' + target]);
   });
 
-  grunt.registerTask('test', [
+  /*grunt.registerTask('test', [
     'clean:server',
     'wiredep',
     'concurrent:test',
     'autoprefixer',
     'connect:test',
     'karma'
-  ]);
+  ]);*/
 
   grunt.registerTask('build', [
     'clean:dist',
@@ -491,7 +502,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('default', [
     'newer:jshint',
-    'test',
+    //'test',
     'build'
   ]);
 };
