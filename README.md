@@ -1,4 +1,4 @@
-# zowber
+# zowber-portfolio
 
 Portfolio app for my professional alter-ego.
 
