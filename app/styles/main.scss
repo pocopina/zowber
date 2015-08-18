@@ -1,10 +1,15 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 
-// BS var overrides
+// Bootstrap Variable Overrides
+// Type
+$font-family-sans-serif:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
 // Color
 $brand-primary: #9013fe !default;
-$section-background-even: whiteSmoke !default;
-$section-background-odd: white !default;
+$section-background-alt: whiteSmoke !default;
 $keyline-gray: #bbb !default;
 
 $fa-font-path: "/bower_components/fontawesome/fonts";
@@ -18,6 +23,10 @@ body {
   padding: 0;
 }
 
+h1, h2 {
+  font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
 h1 {}
 h2 { text-align: center; }
 h3 {}
@@ -35,8 +44,17 @@ h3 {}
   &__content {
     text-align: center;
     color: white;
-    h1 { font-size: 72px; margin-top: 0; margin-bottom: 0;  }
-    h2 { font-size: 24px; margin-top: 8px; margin-bottom: 0 }
+    h1 { 
+      font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 72px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    h2 {
+      font-size: 24px;
+      margin-top: 8px;
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -63,15 +81,11 @@ h3 {}
 }
 
 .section {
-  padding-top: 64px;
-  &--odd {
-    background: $section-background-even;
-  }
-  &--even {
-    background: $section-background-odd;
+  &--alt {
+    background: $section-background-alt;
   }
   h2 {
-    margin: 0;
+    margin: 64px 0;
   }
 }
 
@@ -99,7 +113,7 @@ h3 {}
 
 .tabs {
   font-size: 18px;
-  margin-top: 48px;
+  margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 48px;
   &__tab {
@@ -158,13 +172,17 @@ a.back-button {
 .page_portfolio-detail {
   background-color: black;
   color: whiteSmoke;
-  h1 {
-    margin-top: 4px;
-  }
 }
 
 .portfolio-detail-header {
   margin-top: 64px;
+  .back-button {
+
+  }
+  h1 {
+    margin-top: 4px;
+    margin-left: 30px;
+  }
 }
 
 /*==========  Mobile First Method  ==========*/
@@ -188,10 +206,15 @@ a.back-button {
     margin-bottom: 64px;
   }
 
-  // Custom 
+  // Custom
   .media.case-studies .media__item {
-    margin-top: 64px;
     margin-bottom: 0;
+  }
+
+  .portfolio-detail-header {
+    h1 {
+      margin-left: 0;
+    }
   }
 }
 
