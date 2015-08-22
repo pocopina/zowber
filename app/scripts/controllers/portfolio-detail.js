@@ -9,10 +9,10 @@
  */
 angular.module('zowberApp')
   .controller('PortfolioDetailCtrl',
-    function ($scope, $routeParams, $http) {
+    function ($scope, $stateParams, $http) {
 
       $scope.pageClass = 'page_portfolio-detail';
-      $http.get('portfolioItems/' + $routeParams.itemId + '.json').success(function(data) {
+      $http.get('portfolioItems/' + $stateParams.itemId + '.json').success(function(data) {
         $scope.item = data;
       });
   });
