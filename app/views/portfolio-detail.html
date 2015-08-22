@@ -1,7 +1,7 @@
 <div class="container-fluid {{pageClass}}">
   <div class="row portfolio-detail-header visible-xs">
     <div class="col-xs-12">
-      <a class="back-button pull-left" ng-href="/#/">
+      <a class="back-button pull-left" ui-sref="home({ lastItem : item.id })">
         <i class="fa fa-arrow-left"></i>
         <span class="sr-only">Back to Portfolio home</span>
       </a>
@@ -10,7 +10,7 @@
   </div>
   <div class="row portfolio-detail-header hidden-xs">
     <div class="col-sm-1 hidden-xs">
-      <a class="back-button pull-left" ng-href="/#/">
+      <a class="back-button pull-left" ui-sref="home({ lastItem : item.id })">
         <i class="fa fa-arrow-left"></i>
         <span class="sr-only">Back to Portfolio home</span>
       </a>
@@ -41,7 +41,7 @@
     <h2>Section Heading</h2>
     <div class="media col-xs-12 col-sm-10 col-sm-offset-1">
       <div class="media-left media-middle">
-        <a ng-href="/#/portfolio/{{item.id}}">
+        <a>
           <img class="media-object" src="http://placehold.it/120x80" />
         </a>
       </div>
@@ -59,7 +59,6 @@
     </div>
     <div class="media col-xs-12 col-sm-10 col-sm-offset-1">
       <div class="media-left media-middle">
-        <a ng-href="/#/portfolio/{{item.id}}">
           <img class="media-object" src="http://placehold.it/120x80" />
         </a>
       </div>
