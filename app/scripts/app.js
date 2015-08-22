@@ -34,14 +34,14 @@ angular
     $urlRouterProvider.otherwise('/');
 
     $stateProvider
-      .state('/', {
-        url: '/',
+      .state('home', {
+        url: '/?lastItem',
         templateUrl: 'views/portfolio.html',
         controller: 'PortfolioCtrl'
       })
-      .state('/portfolio/:itemId', {
+      .state('portfolioDetail', {
         url: '/portfolio/:itemId',
         templateUrl: 'views/portfolio-detail.html',
         controller: 'PortfolioDetailCtrl'
-      })
+      });
   });
