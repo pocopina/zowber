@@ -89,6 +89,8 @@
     "id" : 11,
     "type" : "work",
     "name" : "Global Marketing Planning Tool",
+    "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
+    "heroImgUrl" : "images/portfolioItems/11/hero.svg",
     "labels" : [
       {
         "name" : "Collaborative Design"
