@@ -4,7 +4,7 @@
     "type" : "work",
     "name" : "Income Calculator",
     "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
-    "heroImgUrl" : "images/portfolioItems/4/hero.svg",
+    "heroImgUrl" : "images/4/hero.svg",
     "labels" : [
       {
         "name" : "Collaboration"
@@ -21,7 +21,7 @@
     "id" : 5,
     "type" : "work",
     "name" : "AutoTrader × Barclays: Buying a car",
-    "heroImgUrl" : "images/portfolioItems/5/hero.svg",
+    "heroImgUrl" : "images/5/hero.svg",
     "labels" : [
       {
         "name" : "Customer Journey"
@@ -39,7 +39,7 @@
     "type" : "work",
     "name" : "Responsive Grid Guidelines",
     "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
-    "heroImgUrl" : "images/portfolioItems/7/hero.svg",
+    "heroImgUrl" : "images/7/hero.svg",
     "labels" : [
       {
         "name" : "Responsive"
@@ -57,7 +57,7 @@
     "type" : "work",
     "name" : "Responsive Account Opening",
     "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
-    "heroImgUrl" : "images/portfolioItems/8/hero.png",
+    "heroImgUrl" : "images/8/hero.png",
     "labels" : [
       {
         "name" : "Responsive"
@@ -75,7 +75,7 @@
     "type" : "work",
     "name" : "Share Dealing UI",
     "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
-    "heroImgUrl" : "images/portfolioItems/10/hero.png",
+    "heroImgUrl" : "images/10/hero.png",
     "labels" : [
       {
         "name" : "Subject Matter Expertise"
@@ -90,7 +90,7 @@
     "type" : "work",
     "name" : "Global Marketing Planning Tool",
     "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
-    "heroImgUrl" : "images/portfolioItems/11/hero.svg",
+    "heroImgUrl" : "images/11/hero.svg",
     "labels" : [
       {
         "name" : "Collaborative Design"
@@ -108,7 +108,7 @@
     "type" : "work",
     "name" : "Agile UX Design Process",
     "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
-    "heroImgUrl" : "images/portfolioItems/12/hero.svg",
+    "heroImgUrl" : "images/12/hero.svg",
     "labels" : [
       {
         "name" : "Design Process"
@@ -142,7 +142,7 @@
     "type" : "work",
     "name" : "Responsive Product Hubs",
     "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
-    "heroImgUrl" : "images/portfolioItems/14/hero.svg",
+    "heroImgUrl" : "images/14/hero.svg",
     "labels" : [
       {
         "name" : "Responsive"
