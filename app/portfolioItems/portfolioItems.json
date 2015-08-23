@@ -1,130 +1,152 @@
 [
   {
-    "id" : 1,
-    "type" : "caseStudy",
-    "name" : "Mortgage Interview App",
+    "id" : 4,
+    "type" : "work",
+    "name" : "Income Calculator",
+    "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
+    "heroImgUrl" : "images/portfolioItems/4/hero.svg",
     "labels" : [
       {
         "name" : "Collaboration"
       },
       {
-        "name" : "Service Design"
+        "name" : "HTML/CSS/JS"
       },
       {
-        "name" : "UX Design"
-      },
-      {
-        "name" : "HTML/CSS/JS Prototype"
-      }
-    ]
-  },
-  {
-    "id" : 2,
-    "type" : "caseStudy",
-    "name" : "UX Design Process",
-    "labels" : [
-      {
-        "name" : "Process"
-      },
-      {
-        "name" : "UX Management"
-      },
-      {
-        "name" : "Agile Scrum"
-      }
-    ]
-  },
-  {
-    "id" : 3,
-    "type" : "caseStudy",
-    "name" : "Responsive Sales",
-    "labels" : [
-      {
-        "name" : "Responsive"
-      },
-      {
-        "name" : "Information Architecture"
-      },
-      {
-        "name" : "HTML/CSS/JS/ Prototype"
-      }
-    ]
-  },
-  {
-    "id" : 4,
-    "type" : "work",
-    "name" : "Item one",
-    "labels" : [
-      {
-        "name" : "Label One"
-      },
-      {
-        "name" : "Label Two"
+        "name" : "Design Concept"
       }
     ]
   },
   {
     "id" : 5,
     "type" : "work",
-    "name" : "Item two",
+    "name" : "AutoTrader × Barclays: Buying a car",
+    "heroImgUrl" : "images/portfolioItems/5/hero.svg",
     "labels" : [
       {
-        "name" : "Label One"
+        "name" : "Customer Journey"
       },
       {
-        "name" : "Label Two"
-      }
-    ]
-  },
-  {
-    "id" : 6,
-    "type" : "work",
-    "name" : "Item three",
-    "labels" : [
-      {
-        "name" : "Label One"
+        "name" : "Design Concept"
       },
       {
-        "name" : "Label Two"
+        "name" : "Customer Research"
       }
     ]
   },
   {
     "id" : 7,
     "type" : "work",
-    "name" : "Item four",
+    "name" : "Responsive Grid Guidelines",
+    "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
+    "heroImgUrl" : "images/portfolioItems/7/hero.svg",
     "labels" : [
       {
-        "name" : "Label One"
+        "name" : "Responsive"
       },
       {
-        "name" : "Label Two"
+        "name" : "Communicating Design"
+      },
+      {
+        "name" : "Documentation"
       }
     ]
   },
   {
     "id" : 8,
     "type" : "work",
-    "name" : "Item five",
+    "name" : "Responsive Account Opening",
+    "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
+    "heroImgUrl" : "images/portfolioItems/8/hero.png",
     "labels" : [
       {
-        "name" : "Label One"
+        "name" : "Responsive"
       },
       {
-        "name" : "Label Two"
+        "name" : "HTML/CSS/JS"
+      },
+      {
+        "name" : "Design Language"
       }
     ]
   },
   {
-    "id" : 9,
+    "id" : 10,
     "type" : "work",
-    "name" : "Item six",
+    "name" : "Share Dealing UI",
+    "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
+    "heroImgUrl" : "images/portfolioItems/10/hero.png",
     "labels" : [
       {
-        "name" : "Label One"
+        "name" : "Subject Matter Expertise"
       },
       {
-        "name" : "Label Two"
+        "name" : "Communicating Design"
+      }
+    ]
+  },
+  {
+    "id" : 11,
+    "type" : "work",
+    "name" : "Global Marketing Planning Tool",
+    "labels" : [
+      {
+        "name" : "Collaborative Design"
+      },
+      {
+        "name" : "BPMN"
+      },
+      {
+        "name" : "Process Architecture"
+      }
+    ]
+  },
+  {
+    "id" : 12,
+    "type" : "work",
+    "name" : "UX Sprint Process",
+    "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
+    "heroImgUrl" : "images/portfolioItems/12/hero.svg",
+    "labels" : [
+      {
+        "name" : "Design Process"
+      },
+      {
+        "name" : "Agile"
+      },
+      {
+        "name" : "UX Strategy"
+      }
+    ]
+  },
+  {
+    "id" : 13,
+    "type" : "work",
+    "name" : "Conference Stand Service Blueprint",
+    "labels" : [
+      {
+        "name" : "Service Design"
+      },
+      {
+        "name" : "Communicating Design"
+      },
+      {
+        "name" : "Customer Research"
+      }
+    ]
+  },
+  {
+    "id" : 14,
+    "type" : "work",
+    "name" : "Responsive Product Hubs",
+    "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
+    "heroImgUrl" : "images/portfolioItems/14/hero.svg",
+    "labels" : [
+      {
+        "name" : "Responsive"
+      },
+      {
+        "name" : "Re-platforming"
       }
     ]
   }

@@ -89,11 +89,19 @@ h3 {}
   }
 }
 
+.work-example {
+  margin-bottom: 64px;
+  &__image {
+    border-radius: 5px;
+  }
+}
+
 .media {
   margin-top: 0;
   margin-bottom: 64px;
-  &__item {
-  }
+}
+.media-body {
+  padding-bottom: 0;
 }
 
 .labels {
@@ -219,9 +227,9 @@ a.back-button {
 }
 
 /* Medium Devices, Desktops */
-// @media only screen and (min-width : 992px) {
-//  body { background-color: blue !important }
-// }
+@media only screen and (min-width : 992px) {
+
+}
 
 /* Large Devices, Wide Screens */
 // @media only screen and (min-width : 1200px) {

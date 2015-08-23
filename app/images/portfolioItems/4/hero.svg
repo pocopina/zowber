@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024px" height="768px" viewBox="0 0 1024 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>hero</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Income-calculator" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="hero" sketch:type="MSArtboardGroup">
+            <rect id="Rectangle-4" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="1024" height="768"></rect>
+            <g id="Rectangle-1-Copy-+-Attend-interview" sketch:type="MSLayerGroup" transform="translate(60.000000, 131.000000)">
+                <rect id="Rectangle-1-Copy" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="250" height="200"></rect>
+                <text id="Attend-interview" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="36" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="72.6083984" y="86">Attend </tspan>
+                    <tspan x="53.5097656" y="132">interview</tspan>
+                </text>
+            </g>
+            <rect id="Rectangle-1-Copy-2" fill="#29ABE1" sketch:type="MSShapeGroup" x="386.5" y="439.043203" width="250" height="200"></rect>
+            <g id="Rectangle-1-Copy-+-Necessary" sketch:type="MSLayerGroup" transform="translate(386.000000, 130.000000)">
+                <path d="M0,100.810726 L125,0.810725647 L250,100.810726 L125,200.810726 L0,100.810726 L0,100.810726 Z" id="Rectangle-1-Copy" fill="#29ABE1" sketch:type="MSShapeGroup"></path>
+                <text id="Necessary" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="72.6835938" y="78">Necessary</tspan>
+                    <tspan x="79.5800781" y="108">evidence</tspan>
+                    <tspan x="75.671875" y="138">available?</tspan>
+                </text>
+            </g>
+            <g id="Rectangle-1-Copy-+-Decision-in-Principl" sketch:type="MSLayerGroup" transform="translate(713.000000, 131.000000)">
+                <rect id="Rectangle-1-Copy" fill="#29ABE1" sketch:type="MSShapeGroup" x="0.5" y="0" width="250" height="200"></rect>
+                <text id="Decision-in-Principl" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="36" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="40.4208984" y="86">Decision in </tspan>
+                    <tspan x="59.0625" y="132">Principle</tspan>
+                </text>
+            </g>
+            <g id="Rectangle-5-+-No-Copy" sketch:type="MSLayerGroup" transform="translate(655.500000, 215.500000)" font-size="24" font-family="Expert Sans" fill="#29ABE1" font-weight="normal">
+                <text id="Yes" sketch:type="MSTextLayer">
+                    <tspan x="0" y="24">Yes</tspan>
+                </text>
+            </g>
+            <g id="Rectangle-5-+-No-Copy-2" sketch:type="MSLayerGroup" transform="translate(497.000000, 366.000000)" font-size="24" font-family="Expert Sans" fill="#29ABE1" font-weight="normal">
+                <text id="No" sketch:type="MSTextLayer">
+                    <tspan x="0" y="24">No</tspan>
+                </text>
+            </g>
+            <text id="In-branch-follow-up" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="36" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                <tspan x="435.78125" y="507.043203">In-branch </tspan>
+                <tspan x="437.301758" y="553.043203">follow-up</tspan>
+                <tspan x="447.523438" y="599.043203">required</tspan>
+            </text>
+            <path d="M350,657.5 L672,421.5" id="Line" stroke="#FF0000" stroke-width="5" stroke-linecap="square" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024px" height="768px" viewBox="0 0 1024 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>hero</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Responsive-product-hubs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="hero" sketch:type="MSArtboardGroup">
+            <g sketch:type="MSLayerGroup">
+                <rect id="Rectangle-40" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="1024" height="768"></rect>
+                <text id="Responsive-“Product-" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="36" font-weight="normal" fill="#29ABE1">
+                    <tspan x="70" y="97">Responsive “Product Hub” layout pattern</tspan>
+                </text>
+                <text id="Extra-small" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" fill="#000000">
+                    <tspan x="70" y="180">Extra small</tspan>
+                </text>
+                <text id="Small" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" fill="#000000">
+                    <tspan x="296" y="180">Small</tspan>
+                </text>
+                <text id="Medium" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" fill="#000000">
+                    <tspan x="522" y="180">Medium</tspan>
+                </text>
+                <text id="Large" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" fill="#000000">
+                    <tspan x="748" y="180">Large</tspan>
+                </text>
+                <text id="I.e.,-smartphone" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="70" y="200">I.e., smartphone</tspan>
+                </text>
+                <text id="I.e.,-portrait-table" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="296" y="200">I.e., portrait tablet</tspan>
+                </text>
+                <text id="I.e.,-landscabe-tabl" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="522" y="200">I.e., landscabe tablet</tspan>
+                </text>
+                <text id="I.e.,-desktop" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="748" y="200">I.e., desktop</tspan>
+                </text>
+                <g id="Rectangle-1-Copy-3-+-Header" transform="translate(70.000000, 224.000000)">
+                    <rect id="Rectangle-1-Copy-3" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Header" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="66.5878906" y="26.2285156">Header</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-4-+-Hero" transform="translate(70.000000, 274.000000)">
+                    <rect id="Rectangle-1-Copy-4" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Hero" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="78.9335938" y="26.2285156">Hero</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-5-+-Hero-Copy" transform="translate(70.000000, 324.000000)">
+                    <rect id="Rectangle-1-Copy-5" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Use/manage" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="36.5996094" y="26.2285156">Use/manage</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle-1-Copy-8" fill="#29ABE1" sketch:type="MSShapeGroup" x="70" y="374" width="208" height="40"></rect>
+                <text id="Filter" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="148.166016" y="400.228516">Filter</tspan>
+                </text>
+                <g id="Rectangle-1-Copy-6-+-Hero-Copy-3" transform="translate(70.000000, 424.000000)">
+                    <rect id="Rectangle-1-Copy-6" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Products" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="57.8046875" y="26.2285156">Products</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-7-+-Hero-Copy-4" transform="translate(70.000000, 474.000000)">
+                    <rect id="Rectangle-1-Copy-7" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Stories" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="68.5625" y="26.2285156">Stories</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-11-+-Hero-Copy-5" transform="translate(70.000000, 524.000000)">
+                    <g>
+                        <rect id="Rectangle-1-Copy-11" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                        <text id="Help" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                            <tspan x="80.1464844" y="26.2285156">Help</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Rectangle-1-Copy-9-+-Hero" transform="translate(70.000000, 574.000000)">
+                    <rect id="Rectangle-1-Copy-9" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="80"></rect>
+                    <text id="Important" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="51.7578125" y="33">Important</tspan>
+                        <tspan x="42.6757812" y="63">Information</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-10-+-Hero-Copy-7" transform="translate(70.000000, 664.000000)">
+                    <rect id="Rectangle-1-Copy-10" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Footer" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="70.7714844" y="26.2285156">Footer</tspan>
+                    </text>
+                </g>
+                <text id="Filter-Copy" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="148.166016" y="400.228516">Filter</tspan>
+                </text>
+                <g id="Rectangle-1-Copy-3-+-Header-Copy-Copy-Copy" transform="translate(295.000000, 224.000000)">
+                    <rect id="Rectangle-1-Copy-3" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Header" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="66.5878906" y="26.2285156">Header</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-4-+-Hero-Copy-Copy" transform="translate(295.000000, 274.000000)">
+                    <rect id="Rectangle-1-Copy-4" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="119" height="80"></rect>
+                    <text id="Hero" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="34.4335938" y="45.4570312">Hero</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-5-+-Hero-Copy-Copy-Copy" transform="translate(295.000000, 364.000000)">
+                    <rect id="Rectangle-1-Copy-5" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="User/manage" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="32.375" y="26.2285156">User/manage</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle-1-Copy-13" fill="#29ABE1" sketch:type="MSShapeGroup" x="295" y="414" width="208" height="40"></rect>
+                <text id="Filter-Copy-2" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="373.166016" y="440.228516">Filter</tspan>
+                </text>
+                <g id="Rectangle-1-Copy-6-+-Hero-Copy-3-Copy-Copy" transform="translate(295.000000, 464.000000)">
+                    <rect id="Rectangle-1-Copy-6" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Products" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="57.8046875" y="26.2285156">Products</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-7-+-Hero-Copy-4-Copy-Copy" transform="translate(295.000000, 514.000000)">
+                    <rect id="Rectangle-1-Copy-7" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Stories" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="68.5625" y="26.2285156">Stories</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-11-+-Hero-Copy-5-Copy-Copy" transform="translate(295.000000, 564.000000)">
+                    <g id="Rectangle-1-Copy-11-+-Hero-Copy-5">
+                        <rect id="Rectangle-1-Copy-11" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                        <text id="Help" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                            <tspan x="80.1464844" y="26.2285156">Help</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Rectangle-1-Copy-9-+-Hero-Copy-Copy" transform="translate(295.000000, 614.000000)">
+                    <rect id="Rectangle-1-Copy-9" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Import.-Info." sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="40.2617188" y="26.2285156">Import. Info.</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-10-+-Hero-Copy-7-Copy-Copy" transform="translate(295.000000, 664.000000)">
+                    <rect id="Rectangle-1-Copy-10" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Footer" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="70.7714844" y="26.2285156">Footer</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-5-+-Hero-Copy-Copy-Copy-Copy" transform="translate(423.000000, 274.000000)">
+                    <rect id="Rectangle-1-Copy-5" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="80" height="80"></rect>
+                    <text id="Use/" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="15.2871094" y="32">Use/</tspan>
+                        <tspan x="14.3085938" y="62">man.</tspan>
+                    </text>
+                </g>
+                <text id="Filter-Copy-3" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="373.166016" y="440.228516">Filter</tspan>
+                </text>
+                <g id="Rectangle-1-Copy-3-+-Header-Copy-Copy-Copy-Copy" transform="translate(521.000000, 224.000000)">
+                    <rect id="Rectangle-1-Copy-3" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Header" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="66.5878906" y="26.2285156">Header</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-4-+-Hero-Copy-Copy-Copy" transform="translate(521.000000, 274.000000)">
+                    <rect id="Rectangle-1-Copy-4" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="119" height="80"></rect>
+                    <text id="Hero" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="34.4335938" y="45.4570312">Hero</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-5-+-Hero-Copy-Copy-Copy-Copy-Copy" transform="translate(521.000000, 364.000000)">
+                    <rect id="Rectangle-1-Copy-5" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="User/manage" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="32.375" y="26.2285156">User/manage</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle-1-Copy-14" fill="#29ABE1" sketch:type="MSShapeGroup" x="521" y="414" width="208" height="40"></rect>
+                <text id="Filter-Copy-4" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="599.166016" y="440.228516">Filter</tspan>
+                </text>
+                <g id="Rectangle-1-Copy-6-+-Hero-Copy-3-Copy-Copy-Copy" transform="translate(521.000000, 464.000000)">
+                    <rect id="Rectangle-1-Copy-6" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Products" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="57.8046875" y="26.2285156">Products</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-7-+-Hero-Copy-4-Copy-Copy-Copy" transform="translate(521.000000, 514.000000)">
+                    <rect id="Rectangle-1-Copy-7" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Stories" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="68.5625" y="26.2285156">Stories</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-9-+-Hero-Copy-Copy-Copy" transform="translate(521.000000, 564.000000)">
+                    <rect id="Rectangle-1-Copy-9" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="99" height="80"></rect>
+                    <text id="Import.-Info." sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="13.9023438" y="32.4570312">Import. </tspan>
+                        <tspan x="29.3007812" y="62.4570312">Info.</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-9-+-Hero-Copy-Copy-Copy-Copy" transform="translate(630.000000, 564.000000)">
+                    <rect id="Rectangle-1-Copy-9" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="99" height="80"></rect>
+                    <text id="Import.-Info." sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="11.4023438" y="32.4570312">Import. </tspan>
+                        <tspan x="26.8007812" y="62.4570312">Info.</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-10-+-Hero-Copy-7-Copy-Copy-Copy" transform="translate(521.000000, 654.000000)">
+                    <rect id="Rectangle-1-Copy-10" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Footer" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="70.7714844" y="26.2285156">Footer</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-5-+-Hero-Copy-Copy-Copy-Copy-Copy-Copy" transform="translate(649.000000, 274.000000)">
+                    <rect id="Rectangle-1-Copy-5" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="80" height="80"></rect>
+                    <text id="Use/" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="15.2871094" y="32">Use/</tspan>
+                        <tspan x="14.3085938" y="62">man.</tspan>
+                    </text>
+                </g>
+                <text id="Filter-Copy-5" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="599.166016" y="440.228516">Filter</tspan>
+                </text>
+                <g id="Rectangle-1-Copy-3-+-Header-Copy-Copy-Copy-Copy-Copy" transform="translate(749.000000, 224.000000)">
+                    <rect id="Rectangle-1-Copy-3" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Header" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="66.5878906" y="26.2285156">Header</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-4-+-Hero-Copy-Copy-Copy-Copy" transform="translate(749.000000, 274.000000)">
+                    <rect id="Rectangle-1-Copy-4" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="119" height="80"></rect>
+                    <text id="Hero" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="34.4335938" y="45.4570312">Hero</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-5-+-Hero-Copy-Copy-Copy-Copy-Copy-Copy-Copy" transform="translate(749.000000, 364.000000)">
+                    <rect id="Rectangle-1-Copy-5" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="User/manage" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="32.375" y="26.2285156">User/manage</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle-1-Copy-15" fill="#29ABE1" sketch:type="MSShapeGroup" x="749" y="414" width="80" height="40"></rect>
+                <text id="Filter-Copy-6" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="827.166016" y="440.228516">Filter</tspan>
+                </text>
+                <g id="Rectangle-1-Copy-6-+-Hero-Copy-3-Copy-Copy-Copy-Copy" transform="translate(837.000000, 414.000000)">
+                    <rect id="Rectangle-1-Copy-6" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="121" height="40"></rect>
+                    <text id="Products" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="15.3046875" y="27">Products</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-7-+-Hero-Copy-4-Copy-Copy-Copy-Copy" transform="translate(749.000000, 464.000000)">
+                    <rect id="Rectangle-1-Copy-7" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Stories" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="68.5625" y="26.2285156">Stories</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-9-+-Hero-Copy-Copy-Copy-Copy-Copy" transform="translate(749.000000, 514.000000)">
+                    <rect id="Rectangle-1-Copy-9" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="99" height="80"></rect>
+                    <text id="Import.-Info." sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="13.9023438" y="32.4570312">Import. </tspan>
+                        <tspan x="29.3007812" y="62.4570312">Info.</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-9-+-Hero-Copy-Copy-Copy-Copy-Copy-Copy" transform="translate(858.000000, 514.000000)">
+                    <rect id="Rectangle-1-Copy-9" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="99" height="80"></rect>
+                    <text id="Import.-Info." sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="11.4023438" y="32.4570312">Import. </tspan>
+                        <tspan x="26.8007812" y="62.4570312">Info.</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-10-+-Hero-Copy-7-Copy-Copy-Copy-Copy" transform="translate(749.000000, 604.000000)">
+                    <rect id="Rectangle-1-Copy-10" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="208" height="40"></rect>
+                    <text id="Footer" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="70.7714844" y="26.2285156">Footer</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-Copy-5-+-Hero-Copy-Copy-Copy-Copy-Copy-Copy-Copy-Copy" transform="translate(877.000000, 274.000000)">
+                    <rect id="Rectangle-1-Copy-5" fill="#29ABE1" sketch:type="MSShapeGroup" x="0" y="0" width="80" height="80"></rect>
+                    <text id="Use/" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="15.2871094" y="32">Use/</tspan>
+                        <tspan x="14.3085938" y="62">man.</tspan>
+                    </text>
+                </g>
+                <text id="Filter" sketch:type="MSTextLayer" font-family="Expert Sans" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="763.166016" y="441">Filter</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
