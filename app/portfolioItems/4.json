@@ -1,13 +1,18 @@
 {
   "id" : 4,
-  "name" : "Item one",
   "type" : "work",
+  "name" : "Income Calculator",
+  "description" : "My cool description.",
+  "heroImgUrl" : "/images/4/hero.svg",
   "labels" : [
     {
-      "name" : "Label One"
+      "name" : "Collaboration"
     },
     {
-      "name" : "Label Two"
+      "name" : "HTML/CSS/JS"
+    },
+    {
+      "name" : "Design Concept"
     }
   ]
 }

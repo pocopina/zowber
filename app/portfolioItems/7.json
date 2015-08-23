@@ -1,13 +1,18 @@
 {
   "id" : 7,
-  "name" : "Item four",
   "type" : "work",
+  "name" : "Responsive Grid Guidelines",
+  "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
+  "heroImgUrl" : "/images/7/hero.svg",
   "labels" : [
     {
-      "name" : "Label One"
+      "name" : "Responsive"
     },
     {
-      "name" : "Label Two"
+      "name" : "Communicating Design"
+    },
+    {
+      "name" : "Documentation"
     }
   ]
 }

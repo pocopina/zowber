@@ -1,18 +1,15 @@
 {
-  "id" : 8,
+  "id" : 14,
   "type" : "work",
-  "name" : "Responsive Account Opening",
+  "name" : "Responsive Product Hubs",
   "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
-  "heroImgUrl" : "/images/8/hero.png",
+  "heroImgUrl" : "/images/14/hero.svg",
   "labels" : [
     {
       "name" : "Responsive"
     },
     {
-      "name" : "HTML/CSS/JS"
-    },
-    {
-      "name" : "Design Language"
+      "name" : "Re-platforming"
     }
   ]
 }

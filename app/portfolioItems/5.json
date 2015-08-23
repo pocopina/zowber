@@ -1,13 +1,17 @@
 {
   "id" : 5,
-  "name" : "Item two",
   "type" : "work",
+  "name" : "AutoTrader × Barclays: Buying a car",
+  "heroImgUrl" : "/images/5/hero.svg",
   "labels" : [
     {
-      "name" : "Label One"
+      "name" : "Customer Journey"
     },
     {
-      "name" : "Label Two"
+      "name" : "Design Concept"
+    },
+    {
+      "name" : "Customer Research"
     }
   ]
 }

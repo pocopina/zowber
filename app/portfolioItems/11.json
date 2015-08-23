@@ -1,18 +1,18 @@
 {
-  "id" : 8,
+  "id" : 11,
   "type" : "work",
-  "name" : "Responsive Account Opening",
+  "name" : "Global Marketing Planning Tool",
   "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
-  "heroImgUrl" : "/images/8/hero.png",
+  "heroImgUrl" : "/images/11/hero.png",
   "labels" : [
     {
-      "name" : "Responsive"
+      "name" : "Collaborative Design"
     },
     {
-      "name" : "HTML/CSS/JS"
+      "name" : "BPMN"
     },
     {
-      "name" : "Design Language"
+      "name" : "Process Architecture"
     }
   ]
 }

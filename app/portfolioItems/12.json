@@ -1,18 +1,18 @@
 {
-  "id" : 8,
+  "id" : 12,
   "type" : "work",
-  "name" : "Responsive Account Opening",
+  "name" : "Agile UX Design Process",
   "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
-  "heroImgUrl" : "/images/8/hero.png",
+  "heroImgUrl" : "/images/12/hero.svg",
   "labels" : [
     {
-      "name" : "Responsive"
+      "name" : "Design Process"
     },
     {
-      "name" : "HTML/CSS/JS"
+      "name" : "Agile"
     },
     {
-      "name" : "Design Language"
+      "name" : "UX Strategy"
     }
   ]
 }
