@@ -35,7 +35,7 @@ angular
 
     $stateProvider
       .state('home', {
-        url: '/?lastItem',
+        url: '/',
         templateUrl: 'views/portfolio.html',
         controller: 'PortfolioCtrl'
       })

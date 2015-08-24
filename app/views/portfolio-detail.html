@@ -22,74 +22,34 @@
 
   <div class="row portfolio-intro">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-      <img src="http://placehold.it/1024x768" class="img-responsive" />
+      <img ng-src="{{item.heroImgUrl}}" class="img-responsive" />
     </div>
   </div>
 
   <div class="row portfolio-intro">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-      <p class="lead">
-        Vestibulum lacinia venenatis massa id condimentum. Vestibulum blandit ac sapien in ultrices. Nam vel placerat eros, nec tempus dui. Sed laoreet blandit odio non aliquam.
-      </p>
-      <p class="lead">
-        Nam vel placerat eros, nec tempus dui. Sed laoreet blandit odio non aliquam. Curabitur vulputate purus justo, nec ultrices magna consequat id.
-      </p>
+
+      <div
+        ng-bind-html="item.lead">
+      </div>
     </div>
   </div>
 
-  <div class="row section">
-    <h2>Section Heading</h2>
-    <div class="media col-xs-12 col-sm-10 col-sm-offset-1">
-      <div class="media-left media-middle">
-        <a>
-          <img class="media-object" src="http://placehold.it/120x80" />
-        </a>
-      </div>
-      <div class="media-body">
-        <h3 class="media-heading">
-          Lorem ipsum
-        </h3>
-        <p>
-         Vestibulum lacinia venenatis massa id condimentum. Vestibulum blandit ac sapien in ultrices. Nam vel placerat eros, nec tempus dui. Sed laoreet blandit odio non aliquam.
-        </p>
-        <p>
-         Vestibulum lacinia venenatis massa id condimentum. Vestibulum blandit ac sapien in ultrices. Nam vel placerat eros, nec tempus dui. Sed laoreet blandit odio non aliquam.
-        </p>
-      </div>
-    </div>
-    <div class="media col-xs-12 col-sm-10 col-sm-offset-1">
-      <div class="media-left media-middle">
-          <img class="media-object" src="http://placehold.it/120x80" />
-        </a>
-      </div>
-      <div class="media-body">
-        <h3 class="media-heading">
-          Lorem ipsum
-        </h3>
-        <p>
-         Vestibulum lacinia venenatis massa id condimentum. Vestibulum blandit ac sapien in ultrices. Nam vel placerat eros, nec tempus dui. Sed laoreet blandit odio non aliquam.
-        </p>
-        <p>
-         Vestibulum lacinia venenatis massa id condimentum. Vestibulum blandit ac sapien in ultrices. Nam vel placerat eros, nec tempus dui. Sed laoreet blandit odio non aliquam.
-        </p>
-      </div>
-    </div>
-    <div class="media col-xs-12 col-sm-10 col-sm-offset-1">
-      <div class="media-left media-middle">
-        <a ng-href="/#/portfolio/{{item.id}}">
-          <img class="media-object" src="http://placehold.it/120x80" />
-        </a>
-      </div>
-      <div class="media-body">
-        <h3 class="media-heading">
-          Lorem ipsum
-        </h3>
-        <p>
-         Vestibulum lacinia venenatis massa id condimentum. Vestibulum blandit ac sapien in ultrices. Nam vel placerat eros, nec tempus dui. Sed laoreet blandit odio non aliquam.
-        </p>
-        <p>
-         Vestibulum lacinia venenatis massa id condimentum. Vestibulum blandit ac sapien in ultrices. Nam vel placerat eros, nec tempus dui. Sed laoreet blandit odio non aliquam.
-        </p>
+  <div class="row section" ng-repeat="section in item.sections">
+    <h2>{{section.heading}}</h2>
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1" ng-repeat="subsection in section.sections">
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+            <img class="img-responsive" ng-src="{{subsection.imgUrl}}" />
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <h3>
+            {{subsection.heading}}
+          </h3>
+          <div
+            ng-bind-html="subsection.content">
+          </div>
+        </div>
       </div>
     </div>
   </div>

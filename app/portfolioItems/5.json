@@ -13,5 +13,70 @@
     {
       "name" : "Customer Research"
     }
+  ],
+  "lead" : "<p>This is the first lead paragraph for this section</p><p>This is the second lead paragraph for this section</p>",
+  "sections" : [
+    {
+      "heading" : "First section heading",
+      "sections" : [
+        {
+          "heading" : "First subsection heading",
+          "imgUrl" : "/images/480x320.png",
+          "content" : "<p>This is a paragraph.</p>"
+        },
+        {
+          "heading" : "Second subsection heading",
+          "imgUrl" : "/images/480x320.png",
+          "content" : "<p>This is a paragraph.</p>"
+        },
+        {
+          "heading" : "Second subsection heading",
+          "imgUrl" : "/images/480x320.png",
+          "content" : "<p>This is a paragraph.</p>"
+        }
+      ]
+    },
+    {
+      "heading" : "Second section heading",
+      "imgUrl" : "/images/480x320.png",
+      "sections" : [
+        {
+          "heading" : "First subsection heading",
+          "imgUrl" : "/images/480x320.png",
+          "content" : "<p>This is a paragraph.</p>"
+        },
+        {
+          "heading" : "Second subsection heading",
+          "imgUrl" : "/images/480x320.png",
+          "content" : "<p>This is a paragraph.</p>"
+        },
+        {
+          "heading" : "Second subsection heading",
+          "imgUrl" : "/images/480x320.png",
+          "content" : "<p>This is a paragraph.</p>"
+        }
+      ]
+    },
+    {
+      "heading" : "Third section heading",
+      "imgUrl" : "/images/480x320.png",
+      "sections" : [
+        {
+          "heading" : "First subsection heading",
+          "imgUrl" : "/images/480x320.png",
+          "content" : "<p>This is a paragraph.</p>"
+        },
+        {
+          "heading" : "Second subsection heading",
+          "imgUrl" : "/images/480x320.png",
+          "content" : "<p>This is a paragraph.</p>"
+        },
+        {
+          "heading" : "Second subsection heading",
+          "imgUrl" : "/images/480x320.png",
+          "content" : "<p>This is a paragraph.</p>"
+        }
+      ]
+    }
   ]
 }
