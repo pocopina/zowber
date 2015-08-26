@@ -2,8 +2,8 @@
   {
     "id" : 4,
     "type" : "work",
-    "name" : "Income Calculator",
-    "description" : "My cool description.",
+    "name" : "Responsive Income Validation Tool",
+    "description" : "Working as a cross-functional team with mortgage business SMEs. Solving the problem of repeat interview in the mortgage application process.",
     "heroImgUrl" : "/images/4/hero.svg",
     "labels" : [
       {
