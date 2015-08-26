@@ -1,9 +1,9 @@
 [
   {
     "id" : 4,
-    "type" : "work",
+    "type" : "caseStudy",
     "name" : "Responsive Income Validation Tool",
-    "description" : "Working as a cross-functional team with mortgage business SMEs. Solving the problem of repeat interview in the mortgage application process.",
+    "description" : "Solving the problem of repeat interview in the mortgage application process.",
     "heroImgUrl" : "/images/4/hero.svg",
     "labels" : [
       {
@@ -19,9 +19,10 @@
   },
   {
     "id" : 5,
-    "type" : "work",
-    "name" : "AutoTrader × Barclays: Buying a car",
+    "type" : "caseStudy",
+    "name" : "Barclays × AutoTrader: Buying a car",
     "heroImgUrl" : "/images/5/hero.svg",
+    "description" : "Solving car buying pain points with the AutoTrader App and bank APIs.",
     "labels" : [
       {
         "name" : "Customer Journey"
