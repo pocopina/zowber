@@ -22,7 +22,11 @@
       "sections" : [
         {
           "heading" : "Validating income",
-          "imgUrl" : "/images/placeholders/480x320.png",
+          "images" : [
+              "/images/placeholders/480x320.png?123",
+              "/images/placeholders/480x320.png?456",
+              "/images/placeholders/480x320.png?789"
+          ],
           "content" : "<p>The need to match loan amount with affordability is an important consideration in the mortgage application process. To this end a lender will look to documentation provided by the applicant at a mortgage interview to validate income and ensure that future repayments will not overly stretch a customer's personal finances.</p><p>If a customer fails to correctly report and evidence the individual elements that contribute toward an income calculation a repeat interviews is required.</p><p>Repeat interviews block progress and generate confusion at a time where customers seek speed and certainty.</p>"
         },
         {

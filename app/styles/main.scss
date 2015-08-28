@@ -32,7 +32,9 @@ $fa-font-path: "/bower_components/fontawesome/fonts";
 
 body {
   padding: 0;
-  text-align: center;
+  .page_portfolio {
+    text-align: center;
+  }
 }
 
 h1, h2 {
@@ -194,6 +196,8 @@ a.back-button {
 
 .footer {
   p {
+    font-family: 'Open Sans Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     text-align: center;
     margin: 32px auto;
   }
@@ -215,12 +219,8 @@ a.back-button {
 
 .portfolio-detail-header {
   margin-top: 64px;
-  .back-button {
-
-  }
   h1 {
-    margin-top: 4px;
-    margin-left: 30px;
+    margin-top: 32px;
   }
 }
 
@@ -240,10 +240,16 @@ a.back-button {
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
+.portfolio-detail-header {
+  h1 {
+    margin-top: 0px;
+  }
+}
+
 .case-study {
   h3 { margin-top: 16px; }
   &__image {
-    max-width: 66%;
+    max-width: 75%;
   }
 }
 
@@ -254,11 +260,15 @@ a.back-button {
   }
 }
 
-  .portfolio-detail-header {
-    h1 {
+.portfolio-detail-header {
+  h1 {
       margin-left: 0;
-    }
   }
+  .back-button {
+    float: right;
+    margin-right: -10px;
+  }
+}
 }
 
 /* Medium Devices, Desktops */

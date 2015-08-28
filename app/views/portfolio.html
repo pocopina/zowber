@@ -28,7 +28,7 @@
   </div>
 
   <div class="row">
-    <ul class="social-links list-unstyled col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+    <ul class="social-links list-unstyled col-xs-12 col-sm-8 col-sm-offset-2">
       <li>
         <a href="mailto:andy+portfolio@zowber.com">
           <i class="fa fa-envelope"></i>
@@ -78,7 +78,7 @@
 
   <div class="row section work-examples">
 
-    <h2 id="work-examples">Recent Work Examples</h2>
+    <h2 id="work-examples">Recent Work</h2>
 
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
 
@@ -105,7 +105,9 @@
         <div class="col-xs-12" ng-repeat="item in portfolioItems | filter : { 'type' : 'work' }" id="item_{{item.id}}">
           <div class="row work-example">
             <div class="col-xs-12 col-sm-5">
-                <img class="img-responsive work-example__image" ng-src="{{item.heroImgUrl}}" />
+                <a ui-sref="portfolioDetail({ itemId : {{item.id}} })">
+                  <img class="img-responsive work-example__image" ng-src="{{item.heroImgUrl}}" />
+                </a>
             </div>
             <div class="col-xs-12 col-sm-7">
               <h3>{{item.name}}</h3>
