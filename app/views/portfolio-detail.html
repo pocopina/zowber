@@ -11,7 +11,7 @@
     </div>
   </div>
 
-  <div class="row portfolio-intro" ng-if="item.type === 'caseStudy">
+  <div class="row portfolio-intro" ng-if="item.type === 'caseStudy'">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
       <img ng-if="!item.mp4Hero" ng-src="{{item.heroImgUrl}}" class="img-responsive" />
       <video ng-if="item.mp4Hero" ng-src="{{item.mp4Hero}}" class="img-responsive" autoplay controls loop>
