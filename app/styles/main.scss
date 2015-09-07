@@ -212,17 +212,29 @@ a.back-button {
 
 .page_portfolio {}
 
-.page_portfolio-detail {
-  background-color: black;
-  color: whiteSmoke;
-}
-
 .portfolio-detail-header {
   margin-top: 64px;
   h1 {
     margin-top: 32px;
   }
 }
+
+.page_portfolio-detail {
+  background-color: black;
+  color: whiteSmoke;
+  img {
+    background: white;
+    border-radius: 5px;
+  }
+}
+
+.imageGrid {
+  margin-top: 64px;
+  img {
+    margin-bottom: 32px;
+  }
+}
+
 
 /*==========  Mobile First Method  ==========*/
 
@@ -266,7 +278,7 @@ a.back-button {
 }
 
 .portfolio-intro {
-  img {
+  img, video {
     max-width: 75%;
     margin: 0 auto;
   }
