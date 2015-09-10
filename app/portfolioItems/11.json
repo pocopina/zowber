@@ -2,7 +2,6 @@
   "id" : 11,
   "type" : "work",
   "name" : "Marketing Planning Management Tool",
-  "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
   "heroImgUrl" : "/images/7/hero.svg",
   "labels" : [
     {
@@ -12,13 +11,13 @@
       "name" : "Process Design"
     }
   ],
-  "lead" : "<p>This is the first lead paragraph for this section</p><p>This is the second lead paragraph for this section</p>",
+  "lead" : "<p>Bleh</p>",
   "sections" : [
     {
       "sections" : [
         {
           "type" : "imageGrid",
-          "heading" : "Subsection 1",
+          "heading" : "Process Design",
           "content" : "<p>Html content for the subsection</p>",
           "images" : [
             "/images/11/s1i1.jpeg",
@@ -27,7 +26,7 @@
         },
         {
           "type" : "imageGrid",
-          "heading" : "Subsection 2",
+          "heading" : "Personas and Use Case Mapping",
           "content" : "<p>Html content for the subsection</p>",
           "images" : [
             "/images/11/s2i1.png",
@@ -37,12 +36,22 @@
         },
         {
           "type" : "imageGrid",
-          "heading" : "Subsection 3",
+          "heading" : "Sketches",
           "content" : "<p>Html content for the subsection</p>",
           "images" : [
-            "/images/11/s2i1.png",
-            "/images/11/s2i2.png",
-            "/images/11/s2i3.png"
+            "/images/11/s3i1.png",
+            "/images/11/s3i2.png",
+            "/images/11/s3i3.png"
+          ]
+        },
+        {
+          "type" : "imageGrid",
+          "heading" : "Responsive Prototype",
+          "content" : "<p>Html content for the subsection</p>",
+          "images" : [
+            "/images/11/s4i1.png",
+            "/images/11/s4i2.png",
+            "/images/11/s4i3.png"
           ]
         }
       ]

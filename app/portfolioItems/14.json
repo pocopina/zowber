@@ -15,64 +15,18 @@
   "lead" : "<p>This is the first lead paragraph for this section</p><p>This is the second lead paragraph for this section</p>",
   "sections" : [
     {
-      "heading" : "First section heading",
       "sections" : [
         {
-          "heading" : "First subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        },
-        {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        },
-        {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        }
-      ]
-    },
-    {
-      "heading" : "Second section heading",
-      "imgUrl" : "/images/480x320.png",
-      "sections" : [
-        {
-          "heading" : "First subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        },
-        {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        },
-        {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        }
-      ]
-    },
-    {
-      "heading" : "Third section heading",
-      "imgUrl" : "/images/480x320.png",
-      "sections" : [
-        {
-          "heading" : "First subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        },
-        {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        },
-        {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
+          "type" : "imageGrid",
+          "heading" : "Process Design",
+          "content" : "<p>Html content for the subsection</p>",
+          "images" : [
+            "/images/14/s1i1.png",
+            "/images/14/s1i2.png",
+            "/images/14/s1i3.png",
+            "/images/14/s1i4.png",
+            "/images/14/s1i5.png"
+          ]
         }
       ]
     }
