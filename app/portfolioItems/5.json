@@ -36,7 +36,6 @@
           "type" : "imagesAndText",
           "heading" : "Using a cash/loan mix to narrow a search",
           "images" : [
-              "/images/5/s2i1.svg",
               "/images/5/s2i2.svg"
           ],
           "content" : "<p>At the consideration phase the customer has a price range in mind. The AutoTrader App allows the customer to set a price range for their search.</p><p>I explored the idea of adding providing functionality that would allow a customer define price range as a cash only amount, a mix of cash and loan, or loan only amount.</p><p>Using a mix of cash and loan a customer would be able to indicate the amount the cash amount they would put up and to add to this an amount that would come from a loan. We would communicate their per-approved limit and allow the customer to use a slider to define loan amount.</p><p>Using a loan only amount the customer would again allow the customer to use a slider to define loan amount. Furthermore we would provide the indicative monthly repayments for their chosen amount.</p><p>In all cases where a loan amount was to be used for funding we would provide further information regarding how this search would impact their credit footprint, a concern uncovered in my customer research.</p>"

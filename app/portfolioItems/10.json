@@ -3,76 +3,34 @@
   "type" : "work",
   "name" : "Share Dealing UI",
   "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
-  "heroImgUrl" : "/images/10/hero.png",
+  "heroImgUrl" : "/images/7/hero.svg",
   "labels" : [
     {
       "name" : "Subject Matter Expertise"
     },
     {
       "name" : "Communicating Design"
+    },
+    {
+      "name" : "Documentation"
     }
   ],
   "lead" : "<p>This is the first lead paragraph for this section</p><p>This is the second lead paragraph for this section</p>",
   "sections" : [
     {
-      "heading" : "First section heading",
       "sections" : [
         {
-          "heading" : "First subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        },
-        {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        },
-        {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        }
-      ]
-    },
-    {
-      "heading" : "Second section heading",
-      "imgUrl" : "/images/480x320.png",
-      "sections" : [
-        {
-          "heading" : "First subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        },
-        {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        },
-        {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        }
-      ]
-    },
-    {
-      "heading" : "Third section heading",
-      "imgUrl" : "/images/480x320.png",
-      "sections" : [
-        {
-          "heading" : "First subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        },
-        {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        },
-        {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
+          "type" : "imageGrid",
+          "images" : [
+            "/images/10/s1i1.png",
+            "/images/10/s1i2.png",
+            "/images/10/s1i3.png",
+            "/images/10/s1i4.png",
+            "/images/10/s1i5.png",
+            "/images/10/s1i6.png",
+            "/images/10/s1i7.png",
+            "/images/10/s1i8.png"
+          ]
         }
       ]
     }

@@ -1,81 +1,49 @@
 {
   "id" : 11,
   "type" : "work",
-  "name" : "Global Marketing Planning Tool",
+  "name" : "Marketing Planning Management Tool",
   "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
-  "heroImgUrl" : "/images/11/hero.png",
+  "heroImgUrl" : "/images/7/hero.svg",
   "labels" : [
     {
       "name" : "Collaborative Design"
     },
     {
-      "name" : "BPMN"
-    },
-    {
-      "name" : "Process Architecture"
+      "name" : "Process Design"
     }
   ],
   "lead" : "<p>This is the first lead paragraph for this section</p><p>This is the second lead paragraph for this section</p>",
   "sections" : [
     {
-      "heading" : "First section heading",
       "sections" : [
         {
-          "heading" : "First subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
+          "type" : "imageGrid",
+          "heading" : "Subsection 1",
+          "content" : "<p>Html content for the subsection</p>",
+          "images" : [
+            "/images/11/s1i1.jpeg",
+            "/images/11/s1i2.png"
+          ]
         },
         {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
+          "type" : "imageGrid",
+          "heading" : "Subsection 2",
+          "content" : "<p>Html content for the subsection</p>",
+          "images" : [
+            "/images/11/s2i1.png",
+            "/images/11/s2i2.png",
+            "/images/11/s2i3.png"
+          ]
         },
         {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        }
-      ]
-    },
-    {
-      "heading" : "Second section heading",
-      "imgUrl" : "/images/480x320.png",
-      "sections" : [
-        {
-          "heading" : "First subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        },
-        {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        },
-        {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        }
-      ]
-    },
-    {
-      "heading" : "Third section heading",
-      "imgUrl" : "/images/480x320.png",
-      "sections" : [
-        {
-          "heading" : "First subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        },
-        {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
-        },
-        {
-          "heading" : "Second subsection heading",
-          "imgUrl" : "/images/480x320.png",
-          "content" : "<p>This is a paragraph.</p>"
+          "type" : "imageGrid",
+          "heading" : "Subsection 3",
+          "content" : "<p>Html content for the subsection</p>",
+          "images" : [
+            "/images/11/s2i1.png",
+            "/images/11/s2i2.png",
+            "/images/11/s2i3.png"
+          ]
         }
       ]
     }
