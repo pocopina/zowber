@@ -39,7 +39,7 @@
     "id" : 7,
     "type" : "work",
     "name" : "Responsive Grid Guidelines",
-    "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
+    "description" : "Responsive grid documentation for the Designers in Barclays UK Digital Banking.",
     "heroImgUrl" : "/images/7/hero.svg",
     "labels" : [
       {
@@ -57,7 +57,7 @@
     "id" : 10,
     "type" : "work",
     "name" : "Share Dealing UI",
-    "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
+    "description" : "Annotated UI design document from work on an Agent Dealing UI.",
     "heroImgUrl" : "/images/10/hero.png",
     "labels" : [
       {
@@ -72,7 +72,7 @@
     "id" : 11,
     "type" : "work",
     "name" : "Marketing Planning Management Tool",
-    "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
+    "description" : "Examples from a new product development process. Process design, personas and use case mapping, sketches, responsive prototype, UX requirements.",
     "heroImgUrl" : "/images/11/hero.png",
     "labels" : [
       {

@@ -2,7 +2,6 @@
   "id" : 7,
   "type" : "work",
   "name" : "Responsive Grid Guidelines",
-  "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
   "heroImgUrl" : "/images/7/hero.svg",
   "labels" : [
     {
@@ -15,7 +14,7 @@
       "name" : "Documentation"
     }
   ],
-  "lead" : "<p>This is the first lead paragraph for this section</p><p>This is the second lead paragraph for this section</p>",
+  "lead" : "<p>As part of our work in responsive design I created a reference that describes the specification and usage of a fluid grid for HTML prototyping.</p>",
   "sections" : [
     {
       "sections" : [

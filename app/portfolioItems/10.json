@@ -2,7 +2,6 @@
   "id" : 10,
   "type" : "work",
   "name" : "Share Dealing UI",
-  "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
   "heroImgUrl" : "/images/7/hero.svg",
   "labels" : [
     {
@@ -15,7 +14,7 @@
       "name" : "Documentation"
     }
   ],
-  "lead" : "<p>This is the first lead paragraph for this section</p><p>This is the second lead paragraph for this section</p>",
+  "lead" : "<p>While a part of the Design Office team working on a new discretionary investment platform I was responsible for the UX component of several work packages. This example shows annotated UI design for Agent Dealing within the Order Management & Execution work package.</p><p>The approaches utilised in reaching this stage included using existing knowledge of the share dealing business at Barclays, review of the business and functional requirements documents, development of a relationship with the external agency that created the UI style guide and InDesign documentation framework, collaborative design and review with the work package team.</p>",
   "sections" : [
     {
       "sections" : [
