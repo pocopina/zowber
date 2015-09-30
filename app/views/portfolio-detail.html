@@ -46,7 +46,7 @@
       </div>
 
       <!-- Image and text section -->
-      <div class="row" ng-if="subsection.type === 'imagesAndText'">
+      <div class="row imagesAndText" ng-if="subsection.type === 'imagesAndText'">
         <div class="col-xs-12 col-sm-5 col-md-6">
             <img class="img-responsive" ng-repeat="image in subsection.images" ng-src="{{image}}" />
         </div>
@@ -72,5 +72,8 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="footer">
+    <p class="small">By Zowber. For the love of the craft.</p>
   </div>
 </div>

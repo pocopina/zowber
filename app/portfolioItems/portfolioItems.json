@@ -10,10 +10,10 @@
         "name" : "Collaboration"
       },
       {
-        "name" : "HTML/CSS/JS"
+        "name" : "Design Concept"
       },
       {
-        "name" : "Design Concept"
+        "name" : "HTML/CSS/JS"
       }
     ]
   },
@@ -28,10 +28,10 @@
         "name" : "Customer Journey"
       },
       {
-        "name" : "Design Concept"
+        "name" : "Customer Research"
       },
       {
-        "name" : "Customer Research"
+        "name" : "Design Concept"
       }
     ]
   },
@@ -43,13 +43,13 @@
     "heroImgUrl" : "/images/7/hero.svg",
     "labels" : [
       {
-        "name" : "Responsive"
-      },
-      {
         "name" : "Communicating Design"
       },
       {
         "name" : "Documentation"
+      },
+      {
+        "name" : "Responsive"
       }
     ]
   },
@@ -82,7 +82,7 @@
         "name" : "BPMN"
       },
       {
-        "name" : "Process Architecture"
+        "name" : "Process Design"
       }
     ]
   },
@@ -90,9 +90,12 @@
     "id" : 14,
     "type" : "work",
     "name" : "Responsive Product Hubs",
-    "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
+    "description" : "A rationalisation and responsive adaptation of of Barclays.co.uk product hubs.",
     "heroImgUrl" : "/images/14/hero.svg",
     "labels" : [
+      {
+        "name" : "Communicating Design"
+      },
       {
         "name" : "Responsive"
       },

@@ -97,22 +97,18 @@ strong { font-weight: 400; }
   }
 }
 
+/* .row { max-width: 1024px } */
+
 .section {
   &--alt {
-    background: $section-background-alt;
+    /* background: $section-background-alt; */
   }
   h2 {
     margin: 64px 0;
   }
 }
 
-.page_portfolio-detail .section {
-  .row {
-    margin-bottom: 64px;
-  }
-}
-
-.case-study {
+.case-study, .work-example {
   margin-bottom: 64px;
   &__image {
     max-width: 66%;
@@ -122,18 +118,6 @@ strong { font-weight: 400; }
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   }
 }
-
-.work-example {
-  margin-bottom: 64px;
-  &__image {
-    max-width: 66%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  }
-}
-
 
 .labels {
   line-height: 20px;
@@ -194,23 +178,24 @@ a.back-button {
   }
 }
 
+
+.imageGrid, .imagesAndText {
+  img {
+    margin-top: 32px;
+  }
+}
+
+
+
+// Page specific styles
+
+
 .footer {
   p {
-    font-family: 'Open Sans Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 400;
     text-align: center;
     margin: 32px auto;
   }
 }
-
-// Custom 
-.portfolio-intro {
-  margin-top: 64px;
-}
-
-// Page specific styles
-
-.page_portfolio {}
 
 .portfolio-detail-header {
   margin-top: 64px;
@@ -219,19 +204,16 @@ a.back-button {
   }
 }
 
+.portfolio-intro {
+  margin-top: 64px;
+}
+
 .page_portfolio-detail {
   background-color: black;
   color: whiteSmoke;
   img {
     background: white;
-    border-radius: 5px;
-  }
-}
-
-.imageGrid {
-  margin-top: 64px;
-  img {
-    margin-bottom: 32px;
+    border-radius: 3px;
   }
 }
 
@@ -253,7 +235,7 @@ a.back-button {
 @media only screen and (min-width : 768px) {
 
 .case-study {
-  h3 { margin-top: 16px; }
+  h3 { margin-top: 32px; }
   &__image {
     max-width: 75%;
   }
@@ -292,9 +274,29 @@ img+img {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
+  .page_portfolio-detail {
+    h3 {
+      margin-top: 0px;
+    }
+  }
+
+
+  .work-example {
+    h3 {
+        margin-top: 0px;
+      }
+    &__image {
+      max-width: 75%;
+    }
+  }
+
 }
 
 /* Large Devices, Wide Screens */
-// @media only screen and (min-width : 1200px) {
-//   body { background-color: yellow !important }
-// }
+@media only screen and (min-width : 1200px) {
+  .work-example {
+    h3 {
+      margin-top: 8px;
+    }
+  }
+}

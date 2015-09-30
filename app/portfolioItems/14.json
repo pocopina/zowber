@@ -2,7 +2,6 @@
   "id" : 14,
   "type" : "work",
   "name" : "Responsive Product Hubs",
-  "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.",
   "heroImgUrl" : "/images/14/hero.svg",
   "labels" : [
     {
@@ -12,14 +11,13 @@
       "name" : "Re-platforming"
     }
   ],
-  "lead" : "<p>This is the first lead paragraph for this section</p><p>This is the second lead paragraph for this section</p>",
+  "lead" : "<p>As part of exploring a move from fixed-width to responsive layouts for product hub pages on Barclays.co.uk I went through a process of rationalisation the existing content hierarachy into a single layout pattern that could work for all product categories.</p>",
   "sections" : [
     {
       "sections" : [
         {
           "type" : "imageGrid",
-          "heading" : "Process Design",
-          "content" : "<p>Html content for the subsection</p>",
+          "heading" : "Documentation",
           "images" : [
             "/images/14/s1i1.png",
             "/images/14/s1i2.png",

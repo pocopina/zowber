@@ -11,14 +11,14 @@
       "name" : "Process Design"
     }
   ],
-  "lead" : "<p>Bleh</p>",
+  "lead" : "<p class='lead'>A return to Tag's software division as principle UX on a new product development initative.</p>",
   "sections" : [
     {
       "sections" : [
         {
           "type" : "imageGrid",
           "heading" : "Process Design",
-          "content" : "<p>I used collaborative methods to shape a best practice marketing planning process derived from customer understanding work I had undertaken.</p><p>This included a BPMN versions of the processes that captured high level requirements for the customer journey and showed the orchestration of reusable sub-processes.</p>",
+          "content" : "<p>I used collaborative design methods to reach a definition of what good looks like in the marketing planning process. This work was informed by customer understanding work I had peviously undertaken.</p><p>I later created BPMN versions of the post-it note processes. These diagrams also captured high level requirements for the customer journey and featured orchestration of reusable sub-processes.</p>",
           "images" : [
             "/images/11/s1i1.jpeg",
             "/images/11/s1i2.png"
@@ -27,7 +27,7 @@
         {
           "type" : "imageGrid",
           "heading" : "Personas and Use Case Mapping",
-          "content" : "<p>Utilising interviews, contextual inquiry, and surveys I had developed a good deal of understanding of the people, processes, and technology involved in marketing planning.</p><p>As part developing customer journey documentation I developed user group personas which I mapped to the use cases involved in the marketing planning process. This work also formed a basis of identity and permission management requirements within the process.</p>",
+          "content" : "<p>Utilising interviews, contextual inquiry, and surveys I had developed a good deal of understanding of the people, processes, and technology involved in marketing planning.</p><p>As part developing customer journey documentation I developed user group personas which I mapped to the use cases involved in the marketing planning process. This work also formed a basis of identity and permission management requirements.</p>",
           "images" : [
             "/images/11/s2i1.png",
             "/images/11/s2i2.png",
@@ -37,7 +37,7 @@
         {
           "type" : "imageGrid",
           "heading" : "Sketches",
-          "content" : "<p>I made several hundred sketches based on the customer understanding and business requirements. The approach included modularity as a key goal.</p>",
+          "content" : "<p>I made several hundred sketches based on the customer understanding and business requirements.</p>",
           "images" : [
             "/images/11/s3i1.png",
             "/images/11/s3i2.png",
@@ -47,7 +47,7 @@
         {
           "type" : "imageGrid",
           "heading" : "Responsive Prototype",
-          "content" : "<p>To get a feel for the viability delivering the product as a responsive web application I created a prototype of the primary screens the use cases would require.</p><p>I used Bootstrap and an implementation of Material Design to develop an HTML prototype.</p>",
+          "content" : "<p>To get a feel for the viability delivering the product as a responsive web application I created a responsive prototype of the primary screens the use cases would require.</p><p>I used Bootstrap and an implementation of Material Design to quickly develop a proof-of-concept HTML prototype.</p>",
           "images" : [
             "/images/11/s4i1.png",
             "/images/11/s4i2.png",

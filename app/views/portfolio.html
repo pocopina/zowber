@@ -1,4 +1,4 @@
-<div class="container-fluid {{pageClass}}">
+<div class="container {{pageClass}}">
   <div class="row">
     <div class="col-xs-12">
       <div class="hero">
@@ -16,19 +16,16 @@
         <strong>Hello! I'm Andy Bright. A Senior UX Designer and UX Developer with over a decade of experience in the industry.</strong>
       </p>
       <p class="lead">
-        As a UX Designer and Developer I am passionate about working from strategy, to concept, to live, with great teams that aim to deliver experiences customers will love.
+        As a UX Designer and Developer I have worked from strategy, to concept, to live, with great teams that aim to deliver experiences customers will love.
       </p>
       <p class="lead">
-        My unique skillset and experience, across design and development, allows me to operate effectively throughout the project lifecycle.
-      </p>
-      <p class="lead">
-        I am as comfortable facilitating collaborative workshops with business leaders as I am gathering and communicating customer insight, designing and leading production process, creating a BPMN diagram, or coding an interactive prototype with the latest web technology.
+        My experience allows me to be as effective facilitating collaborative workshops with business leaders as I am gathering and communicating customer insight, designing customer journeys, or coding an interactive prototype with the latest web technology.
       </p>
     </div>
   </div>
 
   <div class="row">
-    <ul class="social-links list-unstyled col-xs-12 col-sm-8 col-sm-offset-2">
+    <ul class="social-links list-unstyled col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
       <li>
         <a href="mailto:andy+portfolio@zowber.com">
           <i class="fa fa-envelope"></i>
@@ -55,7 +52,7 @@
     <h2>Case Studies</h2>
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
       <div class="row case-studies list-unstyled">
-        <div class="col-xs-12 col-sm-6 case-study" ng-repeat="item in portfolioItems | filter : { 'type' : 'caseStudy' }">
+        <div class="col-xs-12 col-md-6 case-study" ng-repeat="item in portfolioItems | filter : { 'type' : 'caseStudy' }">
           <a ui-sref="portfolioDetail({ itemId : {{item.id}} })">
             <img class="case-study__image img-responsive" ng-src="{{item.heroImgUrl}}" />
           </a>
