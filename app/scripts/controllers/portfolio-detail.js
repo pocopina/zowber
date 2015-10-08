@@ -18,7 +18,7 @@ angular.module('zowberApp')
       });
 
       $scope.goBack = function () {
-        // TODO: Check if the referrer was actually the main portfolio page
+        // TODO: Check if the previous page was actually the main portfolio page
         history.back();
       };
 
