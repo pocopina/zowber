@@ -1,4 +1,5 @@
 <div class="container-fluid {{pageClass}}">
+
   <div class="row portfolio-detail-header">
     <div class="col-xs-12 col-sm-1">
       <a class="back-button" ng-click="goBack()">
@@ -19,6 +20,7 @@
       </video>
     </div>
   </div>
+
 
   <div class="row portfolio-intro">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
@@ -59,21 +61,28 @@
           </div>
         </div>
       </div>
+
+
       <!-- Image grid section -->
       <div class="row imageGrid" ng-if="subsection.type === 'imageGrid'">
         <div class="col-xs-12">
           <h2 ng-if="subsection.heading">{{subsection.heading}}</h2>
           <div
-              ng-bind-html="subsection.content">
+              ng-bind-html="subsection.content" class="col-xs-12 col-sm-10 col-sm-offset-1">
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4" ng-repeat="image in subsection.images">
             <img class="img-responsive" ng-src="{{image}}" />
         </div>
       </div>
+
     </div>
   </div>
+</div>
+
+<div class="container-fluid {{pageClass}}">
   <div class="footer">
     <p class="small">By Zowber. For the love of the craft.</p>
   </div>
+</div>
 </div>
