@@ -15,23 +15,17 @@ angular
     'ngResource',
     //'ngRoute',
     'ngSanitize',
-    'ui.router'
+    'ui.router',
+    'angulartics',
+    'angulartics.piwik'
   ])
-  .config(function ($stateProvider, $urlRouterProvider) {
-    // $routeProvider
-    //   .when('/', {
-    //     templateUrl: 'views/portfolio.html',
-    //     controller: 'PortfolioCtrl'
-    //   })
-    //   .when('/portfolio/:itemId', {
-    //     templateUrl: 'views/portfolio-detail.html',
-    //     controller: 'PortfolioDetailCtrl'
-    //   })
-    //   .otherwise({
-    //     redirectTo: '/'
-    //   });
+  .config(function ($stateProvider, $urlRouterProvider, $analyticsProvider) {
 
-    $urlRouterProvider.otherwise('/');
+    $analyticsProvider.firstPageview(true); /* Records pages that don't use $state or $route */
+    $analyticsProvider.withAutoBase(true);  /* Records full path */
+    $analyticsProvider.virtualPageviews(false);
+
+    //$urlRouterProvider.otherwise('/');
 
     $stateProvider
       .state('home', {

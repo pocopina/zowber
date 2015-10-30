@@ -11,7 +11,7 @@
       "name" : "Re-platforming"
     }
   ],
-  "lead" : "<p>As part of exploring a move from fixed-width to responsive layouts for product hub pages on Barclays.co.uk I went through a process of rationalisation the existing content hierarachy into a single layout pattern that could work for all product categories.</p>",
+  "lead" : "<p class='lead'>As part of exploring a move from fixed-width to responsive layouts for product hub pages on Barclays.co.uk I went through a process of rationalisation the existing content hierarachy into a single layout pattern that could work for all product categories.</p>",
   "sections" : [
     {
       "sections" : [

@@ -14,7 +14,7 @@
       "name" : "Documentation"
     }
   ],
-  "lead" : "<p>While a part of the Design Office team working on a new discretionary investment platform I was responsible for the UX component of several work packages. This example shows annotated UI design for Agent Dealing within the Order Management & Execution work package.</p><p>The approaches utilised in reaching this stage included using existing knowledge of the share dealing business at Barclays, review of the business and functional requirements documents, development of a relationship with the external agency that created the UI style guide and InDesign documentation framework, collaborative design and review with the work package team.</p>",
+  "lead" : "<p class='lead'>A part of a Design Office team working on a new discretionary investment platform. This example shows annotated UI design for Agent Dealing within the Order Management & Execution work package.</p><p class='lead'>Work involved in reaching this stage included:<ul><li>using existing knowledge of the share dealing business at Barclays,</li><li>review of business and functional requirements,</li><li>development of a relationship with the external agency that created the platform style guide and InDesign documentation framework</li><li>collaborative design and review with the wider project team.</li></ul></p>",
   "sections" : [
     {
       "sections" : [

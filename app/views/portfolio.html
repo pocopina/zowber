@@ -116,7 +116,11 @@
               <p class="description">
                 {{item.description}}
               </p>
-              <a ui-sref="portfolioDetail({ itemId : {{item.id}} })" class="btn btn-default">More details</a>
+              <a 
+                ui-sref="portfolioDetail({ itemId : {{item.id}} })"
+                class="btn btn-default"
+                analytics-on=""
+                >More details</a>
             </div>
           </div>
         </div>
@@ -125,6 +129,6 @@
   </div>
 
   <div class="row footer section section--alt">
-    <p class="small">By Zowber. For the love of the craft.</p>
+    <p class="small">By Zowber.</p>
   </div>
 </div>

@@ -9,7 +9,7 @@
  */
 angular.module('zowberApp')
   .controller('PortfolioDetailCtrl',
-    function ($scope, $stateParams, $http) {
+    function ($scope, $stateParams, $http, $analytics) {
 
       $scope.pageClass = 'page_portfolio-detail';
 
@@ -21,5 +21,7 @@ angular.module('zowberApp')
         // TODO: Check if the previous page was actually the main portfolio page
         history.back();
       };
+
+      $analytics.pageTrack('/portfolio/' + $stateParams.itemId);
 
   });

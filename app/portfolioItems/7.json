@@ -14,7 +14,7 @@
       "name" : "Documentation"
     }
   ],
-  "lead" : "<p>As part of our work in responsive design I created a reference that describes the specification and usage of a fluid grid for HTML prototyping.</p>",
+  "lead" : "<p class='lead'>As part of our work in responsive design I created a reference that describes the specification and usage of a fluid grid for HTML prototyping.</p>",
   "sections" : [
     {
       "sections" : [
