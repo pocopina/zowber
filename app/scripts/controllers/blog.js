@@ -8,15 +8,9 @@
  * Controller of the zowberApp
  */
 angular.module('zowberApp')
-  .controller('BlogCtrl', function ($routeParams, postsService) {
+  .controller('BlogCtrl', function (postsService, blogDetailsService) {
 
-    this.getBlogDetails = function() {
-    	this.name = "Zowber Blog";
-    	this.strapline = "Blog strapline text";
-    };
-
-    this.getBlogDetails();
+    this.blogDetails = blogDetailsService.getBlogDetails();
     this.posts = postsService.getPosts(5);
-    console.log(this.posts);
     
   });

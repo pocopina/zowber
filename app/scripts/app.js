@@ -49,13 +49,10 @@ angular
 
   })
   .run(function($rootScope) {
-    $rootScope.$on('$routeChangeSuccess', function(e, next, cur) {
-      console.log(cur);
+    $rootScope.$on('$routeChangeSuccess', function(e, next, cur) { 
+        $rootScope.referredFromHome = false;
         if (cur && cur.loadedTemplateUrl === 'views/portfolio.html') {
-          $rootScope.backToHome = true;
-        }
-        else {
-          $rootScope.backToHome = false;
+          $rootScope.referredFromHome = true;
         }
       });
     });

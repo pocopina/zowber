@@ -11,7 +11,6 @@
     "angular-sanitize": "1.4.4",
     "fontawesome": "~4.4.0",
     "animate.css": "~3.4.0",
-    "angular-ui-router": "~0.2.15",
     "angulartics": "~0.20.1"
   },
   "devDependencies": {
@@ -20,12 +19,22 @@
   "appPath": "app",
   "moduleName": "zowberApp",
   "overrides": {
-    "bootstrap": {
+    "bootstrap-sass-official": {
       "main": [
-        "less/bootstrap.less",
-        "dist/css/bootstrap.css",
-        "dist/js/bootstrap.js"
+        "assets/stylesheets/_bootstrap.scss"
       ]
+    },
+    "angulartics": {
+      "dependencies": {
+        "angular": ">=1.1.5"
+      },
+      "main": [
+        "src/angulartics.js",
+        "src/angulartics-piwik.js"
+      ],
+      "dependencies": {
+          "jquery": ">= 1.9.0"
+        }
     }
   }
 }

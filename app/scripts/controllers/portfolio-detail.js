@@ -18,7 +18,7 @@ angular.module('zowberApp')
       });
 
       $scope.goBack = function () {
-          if ($rootScope.backToHome) {
+          if ($rootScope.referredFromHome) {
             history.back();
           }
           else {
