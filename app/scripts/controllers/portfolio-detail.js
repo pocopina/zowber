@@ -9,19 +9,21 @@
  */
 angular.module('zowberApp')
   .controller('PortfolioDetailCtrl',
-    function ($scope, $stateParams, $http, $analytics) {
+    function ($rootScope, $scope, $routeParams, $http, $location) {
 
       $scope.pageClass = 'page_portfolio-detail';
 
-      $http.get('portfolioItems/' + $stateParams.itemId + '.json').success(function(data) {
+      $http.get('portfolioItems/' + $routeParams.itemId + '.json').success(function(data) {
         $scope.item = data;
       });
 
       $scope.goBack = function () {
-        // TODO: Check if the previous page was actually the main portfolio page
-        history.back();
+          if ($rootScope.backToHome) {
+            history.back();
+          }
+          else {
+            $location.path("/");
+          }
       };
-
-      $analytics.pageTrack('/portfolio/' + $stateParams.itemId);
 
   });

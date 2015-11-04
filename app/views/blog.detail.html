@@ -1,0 +1,16 @@
+<h1>{{postDetail.post.title}}</h1>
+<ul>
+	<li ng-repeat="meta in postDetail.post.meta">
+		<em>{{meta.friendlyName}}</em> {{meta.value}}
+	</li>
+</ul>
+<ul>
+	<li ng-repeat="tag in postDetail.post.meta.tags">
+		{{tag.name}}
+	</li>
+</ul>
+<dl>
+	<dt>Reading time</dt>
+	<dl>{{postDetail.readingTime}}</dl>
+</dl>
+<span>{{postDetail.post.content}}</span>

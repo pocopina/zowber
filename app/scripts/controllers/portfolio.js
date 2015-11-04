@@ -13,8 +13,8 @@ angular.module('zowberApp')
 
       $scope.pageClass = 'page_portfolio';
 
-      $http.get('portfolioItems/portfolioItems.json').success(function(data) {
+      $http.get('/portfolioItems/portfolioItems.json').success(function (data) {
         $scope.portfolioItems = data;
       });
 
-  });
+    });

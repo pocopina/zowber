@@ -13,29 +13,49 @@ angular
     'ngAnimate',
     'ngCookies',
     'ngResource',
-    //'ngRoute',
+    'ngRoute',
     'ngSanitize',
-    'ui.router',
+    //'ui.router',
     'angulartics',
     'angulartics.piwik'
   ])
-  .config(function ($stateProvider, $urlRouterProvider, $analyticsProvider) {
+  .config(function ($routeProvider, $analyticsProvider) {
 
     $analyticsProvider.firstPageview(true); /* Records pages that don't use $state or $route */
     $analyticsProvider.withAutoBase(true);  /* Records full path */
-    $analyticsProvider.virtualPageviews(false);
+    $analyticsProvider.virtualPageviews(true);
 
-    //$urlRouterProvider.otherwise('/');
-
-    $stateProvider
-      .state('home', {
-        url: '/',
+    $routeProvider
+      .when('/', {
         templateUrl: 'views/portfolio.html',
-        controller: 'PortfolioCtrl'
+        controller: 'PortfolioCtrl',
+        controllerAs: 'portfolio'
       })
-      .state('portfolioDetail', {
-        url: '/portfolio/:itemId',
-        templateUrl: 'views/portfolio-detail.html',
+      .when('/portfolio/:itemId', {
+        templateUrl: 'views/portfolio.detail.html',
         controller: 'PortfolioDetailCtrl'
+      })
+      .when('/blog', {
+        templateUrl: 'views/blog.html',
+        controller: 'BlogCtrl',
+        controllerAs: 'blog'
+      })
+      .when('/blog/:title', {
+        templateUrl: 'views/blog.detail.html',
+        controller: 'BlogDetailCtrl',
+        controllerAs: 'postDetail'
+      })
+      .otherwise( {redirectTo: '/'} );
+
+  })
+  .run(function($rootScope) {
+    $rootScope.$on('$routeChangeSuccess', function(e, next, cur) {
+      console.log(cur);
+        if (cur && cur.loadedTemplateUrl === 'views/portfolio.html') {
+          $rootScope.backToHome = true;
+        }
+        else {
+          $rootScope.backToHome = false;
+        }
       });
-  });
+    });

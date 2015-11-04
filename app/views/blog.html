@@ -1,0 +1,13 @@
+
+<h1>{{blog.name}}</h1>
+<p>{{blog.strapline}}</p>
+<div class="section blog-posts">
+	<div ng-if="blog.posts.length" ng-repeat="post in blog.posts">
+		<a ng-href="{{post.link}}">{{post.title}}</a>
+		<small><em>Posted {{post.meta.publishedDate.value}}</em></small>
+	</div>
+	<div ng-if="!blog.posts.length">
+		<p>No posts</p>
+	</div>
+</div>
+{{blog.params}}
