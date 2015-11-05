@@ -13,20 +13,23 @@ angular.module('zowberApp')
 
     	if (numberOfWords === parseInt(numberOfWords, 10)) { // if numberOfWords is an int
 
-    		var readingTimeFloat = 0.0, readingTimeInSeconds = 0, readingTime = "Less than one minute";
+        var readingTime = "Less than one minute";
+        var readingTimeFloat = 0.0;
 
     		for (var i = 0; i < numberOfWords; i++) {
     			readingTimeFloat += 0.24; // surely most adults can read around 250 wpm?
     		}
 
+        var readingTimeInSeconds = parseInt(readingTimeFloat);
+
     		if (readingTimeInSeconds > 60) {
     			var fullMinutesOfReading = Math.round(readingTimeInSeconds / 60);
-    			readingTime = "Less than " + (fullMinutesOfReading + 1) + " minutes";
+          readingTime = "About " + (fullMinutesOfReading) + " minutes";
     		}
 
     		return readingTime;
 
     	}
-    
+
     };
   });

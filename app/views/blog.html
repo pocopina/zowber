@@ -1,13 +1,24 @@
+<div class="container {{ pageClass }}">
 
-<h1>{{blog.blogDetails.name}}</h1>
-<p>{{blog.blogDetails.strapline}}</p>
-<div class="section blog-posts">
-  <div ng-if="blog.posts.length" ng-repeat="post in blog.posts">
-    <a ng-href="{{post.link}}">{{post.title}}</a>
-    <small><em>Posted {{post.meta.publishedDate.value}}</em></small>
+  <div class="row section">
+    <h1>{{blogDetails.name}}</h1>
+
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+      <p>{{blogDetails.description}}</p>
+
+      <div class="section blog-posts">
+        <div ng-if="posts.length" ng-repeat="post in posts">
+          <a ng-href="#/blog/{{post.ID}}">{{post.title}}</a>
+          <small><em>Posted {{post.date}}</em></small>
+        </div>
+        <div ng-if="!posts.length">
+          <p>No posts</p>
+        </div>
+      </div>
+    </div>
   </div>
-  <div ng-if="!blog.posts.length">
-    <p>No posts</p>
+
+  <div class="row footer section">
+    <p class="small">By Zowber.</p>
   </div>
 </div>
-{{blog.params}}

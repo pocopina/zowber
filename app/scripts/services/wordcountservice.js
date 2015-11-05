@@ -11,8 +11,7 @@ angular.module('zowberApp')
   .service('wordCountService', function () {
   	this.getWordCount = function (words) {
   		var arrayOfWords = words.split(" ");
-  		var wordCount = arrayOfWords.length;
-  		return wordCount;
+      return arrayOfWords.length;
   	};
-  	
+
   });

@@ -6,15 +6,12 @@
  * @description
  * # blogDetailsService
  * Service in the zowberApp.
- * @returns {obj} Blog details object
  */
 angular.module('zowberApp')
-  .service('blogDetailsService', function () {
+  .service('blogDetailsService', function ($http) {
 
-        this.getBlogDetails = function() {
-          return {
-          name : "Zowber Blog",
-          strapline : "Blog strapline text"
-        };
+    this.getBlogDetails = function () {
+      return $http.get('http://zowber.com/wordpress/wp-json/');
     };
+
   });

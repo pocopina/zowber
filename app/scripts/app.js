@@ -40,7 +40,7 @@ angular
         controller: 'BlogCtrl',
         controllerAs: 'blog'
       })
-      .when('/blog/:title', {
+      .when('/blog/:ID', {
         templateUrl: 'views/blog.detail.html',
         controller: 'BlogDetailCtrl',
         controllerAs: 'postDetail'
@@ -49,10 +49,7 @@ angular
 
   })
   .run(function($rootScope) {
-    $rootScope.$on('$routeChangeSuccess', function(e, next, cur) { 
-        $rootScope.referredFromHome = false;
-        if (cur && cur.loadedTemplateUrl === 'views/portfolio.html') {
-          $rootScope.referredFromHome = true;
-        }
+    $rootScope.$on('$routeChangeSuccess', function (e, next, cur) {
+      $rootScope.referredFromHome = cur && cur.loadedTemplateUrl === 'views/portfolio.html';
       });
     });

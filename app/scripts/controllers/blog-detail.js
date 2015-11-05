@@ -8,13 +8,19 @@
  * Controller of the zowberApp
  */
 angular.module('zowberApp')
-  .controller('BlogDetailCtrl', function ($routeParams, postsService, wordCountService, readingTimeService) {
-  	this.post = postsService.getPost($routeParams.title);
+  .controller('BlogDetailCtrl', function ($scope, $http, $routeParams, blogPostsService, wordCountService, readingTimeService) {
 
-  	// this.wordCount gets number of words in this.post.content as int
-    this.wordCount = wordCountService.getWordCount(this.post.content);
-    
-    // this.readingTime gets a rough reading time for this.post.content as string
-    this.readingTime = readingTimeService.getReadingTime(this.wordCount);
+    blogPostsService.getPost($routeParams.ID)
+      .then(function (response) {
+        // get the post object
+        $scope.post = response.data;
+        console.log($scope.post);
+
+        // this.wordCount gets number of words in $scope.post.content as int
+        $scope.wordCount = wordCountService.getWordCount($scope.post.content);
+
+        // this.readingTime gets a rough reading time for $scope.post.content as string
+        $scope.readingTime = readingTimeService.getReadingTime($scope.wordCount);
+      });
 
   });

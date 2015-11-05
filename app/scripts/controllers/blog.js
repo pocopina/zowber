@@ -8,9 +8,18 @@
  * Controller of the zowberApp
  */
 angular.module('zowberApp')
-  .controller('BlogCtrl', function (postsService, blogDetailsService) {
+  .controller('BlogCtrl', function ($scope, $http, blogDetailsService, blogPostsService) {
 
-    this.blogDetails = blogDetailsService.getBlogDetails();
-    this.posts = postsService.getPosts(5);
-    
+    var postsPerPage = 10;
+
+    blogDetailsService.getBlogDetails()
+      .then(function (response) {
+        $scope.blogDetails = response.data;
+      });
+
+    blogPostsService.getPosts(postsPerPage)
+      .then(function (response) {
+        $scope.posts = response.data;
+      });
+
   });
