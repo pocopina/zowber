@@ -1,30 +1,27 @@
-$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,500,500italic,600,600italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,600);
+
+$icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 
 // Bootstrap Variable Overrides
 // Type
-$font-family-sans-serif:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$font-family-base:        $font-family-sans-serif !default;
-
-$font-size-base:          18px !default;
-$font-size-large:         24px !default; //
-$font-size-small:         14px !default; // ~12px
-
-$font-size-h1:            48px !default; // ~36px
-$font-size-h2:            36px !default; // ~30px
-$font-size-h3:            27px; // ~24px
-$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
-$font-size-h5:            $font-size-base !default;
-$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
-
-$line-height-base:        1.5 !default;
-
+$font-family-sans-serif: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-base: $font-family-sans-serif !default;
+$font-size-base: 18px !default;
+$font-size-large: 24px !default; //
+$font-size-small: 14px !default; // ~12px
+$font-size-h1: 48px !default; // ~36px
+$font-size-h2: 36px !default; // ~30px
+$font-size-h3: 27px; // ~24px
+$font-size-h4: ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5: $font-size-base !default;
+$font-size-h6: ceil(($font-size-base * 0.85)) !default; // ~12px
+$line-height-base: 1.5 !default;
 // Color
 $brand-primary: #9013fe !default;
 $section-background-alt: whiteSmoke !default;
 $keyline-gray: #bbb !default;
-
 $fa-font-path: "/bower_components/fontawesome/fonts";
-
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 @import "fontawesome/scss/font-awesome.scss";
@@ -41,19 +38,29 @@ h1, h2 {
   font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
-h1 {}
-h2 { text-align: center; }
-h3 { font-weight: 600; }
-p { font-weight: 300; }
-p.lead { font-weight: 300; }
-strong { font-weight: 400; }
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+p,
+p.lead {
+  font-weight: 300;
+}
+
+strong {
+  font-weight: 400;
+}
 
 .hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
-  margin-top: 48px;
+  margin: 96px auto 0 auto;
   border-radius: 50%;
   width: 300px;
   height: 300px;
@@ -61,7 +68,7 @@ strong { font-weight: 400; }
   &__content {
     text-align: center;
     color: white;
-    h1 { 
+    h1 {
       font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 72px;
       margin-top: 0;
@@ -78,8 +85,8 @@ strong { font-weight: 400; }
 .social-links {
   display: flex;
   justify-content: space-between;
-  margin-top: 48px;
-  margin-bottom: 64px;
+  margin-top: 37px;
+  margin-bottom: 96px;
   li {
     text-align: center;
     width: 64px;
@@ -97,25 +104,28 @@ strong { font-weight: 400; }
   }
 }
 
-/* .row { max-width: 1024px } */
 
 .section {
   &--alt {
-    /* background: $section-background-alt; */
+    background: $section-background-alt;
   }
   h2 {
-    margin: 96px 0 64px;
+    margin: 96px 0 0;
   }
 }
 
+.case-studies {
+  margin-bottom: 96px;
+}
+
 .case-study, .work-example {
-  margin-bottom: 64px;
+  margin-top: 64px;
   &__image {
     max-width: 66%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   }
 }
 
@@ -139,8 +149,8 @@ strong { font-weight: 400; }
 
 .tabs {
   font-size: 18px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-bottom: 48px;
   &__tab {
     display: block;
@@ -179,23 +189,16 @@ a.back-button {
 }
 
 
-.imageGrid, .imagesAndText {
-  img {
-    margin-top: 32px;
-  }
-}
-
-
-
-// Page specific styles
-
 
 .footer {
+  margin-top: 96px;
   p {
     text-align: center;
     margin: 32px auto;
   }
 }
+
+// Page specific styles
 
 .portfolio-detail-header {
   margin-top: 64px;
@@ -204,9 +207,11 @@ a.back-button {
   }
 }
 
-.portfolio-intro {
+.media-hero,
+.text-hero {
   margin-top: 64px;
 }
+
 
 .page_portfolio-detail {
   background-color: black;
@@ -216,90 +221,122 @@ a.back-button {
     border-radius: 3px;
   }
 }
-
-.textOnly h3 { margin: 27px 0 27px 0; }
-
-.imagesAndText img { margin-left: auto; margin-right: auto; display: block;} 
-
-
-/*==========  Mobile First Method  ==========*/
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
-  .tabs {
-    display: flex;
-    justify-content: space-between;
-    &__tab {
-      display: inline-block;
-    }
-  }
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
-.case-study {
-  h3 { margin-top: 32px; }
-  &__image {
-    max-width: 75%;
-  }
-}
-
-.work-example {
-  h3 { margin-top: 0; }
-  &__image {
-    max-width: 100%;
-  }
-}
-
-.portfolio-detail-header {
-  h1 {
+.textOnly,
+.imagesAndText,
+.imageGrid {
+  margin-top: 64px;
+  h3 {
     margin-top: 0;
-    margin-left: 0;
-  }
-  .back-button {
-    float: right;
-    margin-right: -10px;
   }
 }
 
-.portfolio-intro {
-  img, video {
-    max-width: 75%;
-    margin: 0 auto;
+.imageGrid {
+  margin-top: 0;
+  h2 {
+    margin-top: 96px;
+    margin-bottom: 64px;
+  }
+  img {
+    margin-top: 64px;
   }
 }
+
+.textOnly {
+  h3 {
+    margin: 36px 0;
+  }
 }
 
-img+img {
-  margin-top: 32px;
+.imagesAndText {
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  h3 {
+    margin-top: 64px;
+  }
 }
 
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+  /*==========  Mobile First Method  ==========*/
 
-  .page_portfolio-detail {
-    h3 {
+  /* Extra Small Devices, Phones */
+  @media only screen and (min-width: 480px) {
+    .tabs {
+      display: flex;
+      justify-content: space-between;
+      &__tab {
+        display: inline-block;
+      }
     }
   }
 
+  /* Small Devices, Tablets */
+  @media only screen and (min-width: 768px) {
 
-  .work-example {
-    h3 {
+    .case-study {
+      h3 {
+        margin-top: 32px;
+      }
+      &__image {
+        max-width: 75%;
+      }
+    }
+    .work-example {
+      h3 {
+        margin-top: 0;
+      }
+      &__image {
+        max-width: 100%;
+      }
+    }
+    .portfolio-detail-header {
+      h1 {
+        margin-top: 0;
+        margin-left: 0;
+      }
+      .back-button {
+        float: right;
+        margin-right: -10px;
+      }
+    }
+    .media-hero {
+      img, video {
+        max-width: 75%;
+        margin: 0 auto;
+      }
+    }
+    img + img {
+      margin-top: 32px;
+    }
+
+
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width: 992px) {
+    .page_portfolio-detail {
+      h3 {
+      }
+    }
+    .work-example {
+      &__image {
+        max-width: 75%;
+      }
+    }
+    .imagesAndText {
+      h3 {
         margin-top: 0px;
       }
-    &__image {
-      max-width: 75%;
     }
   }
 
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-  .work-example {
-    h3 {
-      margin-top: 8px;
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width: 1200px) {
+    .work-example {
+      h3 {
+        margin-top: 8px;
+      }
     }
   }
-}
+

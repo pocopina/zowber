@@ -10,14 +10,12 @@
 angular.module('zowberApp')
   .controller('BlogCtrl', function ($scope, $http, blogDetailsService, blogPostsService) {
 
-    var postsPerPage = 10;
-
     blogDetailsService.getBlogDetails()
       .then(function (response) {
         $scope.blogDetails = response.data;
       });
 
-    blogPostsService.getPosts(postsPerPage)
+    blogPostsService.getPosts()
       .then(function (response) {
         $scope.posts = response.data;
       });

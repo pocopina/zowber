@@ -22,10 +22,12 @@ angular.module('zowberApp')
 
         var readingTimeInSeconds = parseInt(readingTimeFloat);
 
-    		if (readingTimeInSeconds > 60) {
+    		if (readingTimeInSeconds > 120) {
     			var fullMinutesOfReading = Math.round(readingTimeInSeconds / 60);
           readingTime = "About " + (fullMinutesOfReading) + " minutes";
-    		}
+    		} else if (readingTimeInSeconds > 60 && readingTimeInSeconds < 120){
+          readingTime = "About a minute";
+        }
 
     		return readingTime;
 

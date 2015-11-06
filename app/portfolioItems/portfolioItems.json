@@ -1,106 +1,106 @@
 [
   {
-    "id" : 4,
-    "type" : "caseStudy",
-    "name" : "Responsive Income Validation Tool",
-    "description" : "Solving the problem of repeat interview in the mortgage application process.",
-    "heroImgUrl" : "/images/4/hero.svg",
-    "labels" : [
+    "id": 4,
+    "type": "caseStudy",
+    "name": "Responsive Income Validation Tool",
+    "description": "Solving the problem of repeat interview in the mortgage application process.",
+    "heroImgUrl": "/4/hero.svg",
+    "labels": [
       {
-        "name" : "Collaboration"
+        "name": "Collaboration"
       },
       {
-        "name" : "Design Concept"
+        "name": "Design Concept"
       },
       {
-        "name" : "HTML/CSS/JS"
+        "name": "HTML/CSS/JS"
       }
     ]
   },
   {
-    "id" : 5,
-    "type" : "caseStudy",
-    "name" : "Barclays × AutoTrader: Buying a car",
-    "heroImgUrl" : "/images/5/hero.svg",
-    "description" : "Solving car buying pain points with the AutoTrader App and bank APIs.",
-    "labels" : [
+    "id": 5,
+    "type": "caseStudy",
+    "name": "Barclays × AutoTrader: Buying a car",
+    "heroImgUrl": "/5/hero.svg",
+    "description": "Solving car buying pain points with the AutoTrader App and bank APIs.",
+    "labels": [
       {
-        "name" : "Customer Journey"
+        "name": "Customer Journey"
       },
       {
-        "name" : "Customer Research"
+        "name": "Customer Research"
       },
       {
-        "name" : "Design Concept"
+        "name": "Design Concept"
       }
     ]
   },
   {
-    "id" : 7,
-    "type" : "work",
-    "name" : "Responsive Grid Guidelines",
-    "description" : "Responsive grid documentation for the Designers in Barclays UK Digital Banking.",
-    "heroImgUrl" : "/images/7/hero.svg",
-    "labels" : [
+    "id": 7,
+    "type": "work",
+    "name": "Responsive Grid Guidelines",
+    "description": "Responsive grid documentation for the Designers in Barclays UK Digital Banking.",
+    "heroImgUrl": "/7/hero.svg",
+    "labels": [
       {
-        "name" : "Communicating Design"
+        "name": "Communicating Design"
       },
       {
-        "name" : "Documentation"
+        "name": "Documentation"
       },
       {
-        "name" : "Responsive"
+        "name": "Responsive"
       }
     ]
   },
   {
-    "id" : 10,
-    "type" : "work",
-    "name" : "Share Dealing UI",
-    "description" : "Annotated UI design document from work on an Agent Dealing UI.",
-    "heroImgUrl" : "/images/10/hero.png",
-    "labels" : [
+    "id": 10,
+    "type": "work",
+    "name": "Share Dealing UI",
+    "description": "Annotated UI design document from work on an Agent Dealing UI.",
+    "heroImgUrl": "/10/hero.png",
+    "labels": [
       {
-        "name" : "Subject Matter Expertise"
+        "name": "Subject Matter Expertise"
       },
       {
-        "name" : "Communicating Design"
+        "name": "Communicating Design"
       }
     ]
   },
   {
-    "id" : 11,
-    "type" : "work",
-    "name" : "Marketing Planning Management Tool",
-    "description" : "Examples from a new product development process. Process design, personas and use case mapping, sketches, responsive prototype, UX requirements.",
-    "heroImgUrl" : "/images/11/hero.png",
-    "labels" : [
+    "id": 11,
+    "type": "work",
+    "name": "Marketing Planning Management Tool",
+    "description": "Examples from a new product development process. Process design, personas and use case mapping, sketches, responsive prototype, UX requirements.",
+    "heroImgUrl": "/11/hero.png",
+    "labels": [
       {
-        "name" : "Collaborative Design"
+        "name": "Collaborative Design"
       },
       {
-        "name" : "BPMN"
+        "name": "BPMN"
       },
       {
-        "name" : "Process Design"
+        "name": "Process Design"
       }
     ]
   },
   {
-    "id" : 14,
-    "type" : "work",
-    "name" : "Responsive Product Hubs",
-    "description" : "A rationalisation and responsive adaptation of of Barclays.co.uk product hubs.",
-    "heroImgUrl" : "/images/14/hero.svg",
-    "labels" : [
+    "id": 14,
+    "type": "work",
+    "name": "Responsive Product Hubs",
+    "description": "A rationalisation and responsive adaptation of of Barclays.co.uk product hubs.",
+    "heroImgUrl": "/14/hero.svg",
+    "labels": [
       {
-        "name" : "Communicating Design"
+        "name": "Communicating Design"
       },
       {
-        "name" : "Responsive"
+        "name": "Responsive"
       },
       {
-        "name" : "Re-platforming"
+        "name": "Re-platforming"
       }
     ]
   }

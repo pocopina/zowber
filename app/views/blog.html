@@ -1,5 +1,7 @@
 <div class="container {{ pageClass }}">
 
+  <blog-header></blog-header>
+
   <div class="row section">
     <h1>{{blogDetails.name}}</h1>
 
@@ -8,7 +10,7 @@
 
       <div class="section blog-posts">
         <div ng-if="posts.length" ng-repeat="post in posts">
-          <a ng-href="#/blog/{{post.ID}}">{{post.title}}</a>
+          <a ng-href="#/blog/{{post.ID}}" ng-bind-html="post.title"></a>
           <small><em>Posted {{post.date}}</em></small>
         </div>
         <div ng-if="!posts.length">

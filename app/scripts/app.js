@@ -15,7 +15,6 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    //'ui.router',
     'angulartics',
     'angulartics.piwik'
   ])
@@ -28,8 +27,7 @@ angular
     $routeProvider
       .when('/', {
         templateUrl: 'views/portfolio.html',
-        controller: 'PortfolioCtrl',
-        controllerAs: 'portfolio'
+        controller: 'PortfolioCtrl'
       })
       .when('/portfolio/:itemId', {
         templateUrl: 'views/portfolio.detail.html',
@@ -37,13 +35,11 @@ angular
       })
       .when('/blog', {
         templateUrl: 'views/blog.html',
-        controller: 'BlogCtrl',
-        controllerAs: 'blog'
+        controller: 'BlogCtrl'
       })
       .when('/blog/:ID', {
         templateUrl: 'views/blog.detail.html',
-        controller: 'BlogDetailCtrl',
-        controllerAs: 'postDetail'
+        controller: 'BlogDetailCtrl'
       })
       .otherwise( {redirectTo: '/'} );
 

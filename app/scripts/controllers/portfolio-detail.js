@@ -12,6 +12,7 @@ angular.module('zowberApp')
     function ($rootScope, $scope, $routeParams, $http, $location) {
 
       $scope.pageClass = 'page_portfolio-detail';
+      $scope.assetUrlPrefix = "http://zowber-portfolio-assets.s3.amazonaws.com/portfolio-items";
 
       $http.get('portfolioItems/' + $routeParams.itemId + '.json').success(function(data) {
         $scope.item = data;

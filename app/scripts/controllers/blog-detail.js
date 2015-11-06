@@ -14,7 +14,6 @@ angular.module('zowberApp')
       .then(function (response) {
         // get the post object
         $scope.post = response.data;
-        console.log($scope.post);
 
         // this.wordCount gets number of words in $scope.post.content as int
         $scope.wordCount = wordCountService.getWordCount($scope.post.content);

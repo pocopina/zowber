@@ -12,72 +12,10 @@
     </div>
   </div>
 
-  <div class="row portfolio-intro" ng-if="item.type === 'caseStudy'">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-      <img ng-if="!item.mp4Hero" ng-src="{{item.heroImgUrl}}" class="img-responsive" />
-      <video ng-if="item.mp4Hero" ng-src="{{item.mp4Hero}}" class="img-responsive" autoplay controls loop>
-        Your browser does not support the <code>video</code> element. Upgrade all the things!
-      </video>
-    </div>
-  </div>
+  <portfolio-detail-intro></portfolio-detail-intro>
 
+  <portfolio-detail-section></portfolio-detail-section>
 
-  <div class="row portfolio-intro">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-      <div
-        ng-bind-html="item.lead">
-      </div>
-    </div>
-  </div>
-
-  <div class="row section" ng-repeat="section in item.sections">
-    <h2 ng-if="section.heading">{{section.heading}}</h2>
-
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1" ng-repeat="subsection in section.sections">
-
-      <!-- Text only section -->
-      <div class="row textOnly" ng-if="subsection.type === 'textOnly'">
-        <div class="col-xs-12">
-          <h3 ng-if="subsection.heading">
-            {{subsection.heading}}
-          </h3>
-          <div
-            ng-bind-html="subsection.content">
-          </div>
-        </div>
-      </div>
-
-      <!-- Image and text section -->
-      <div class="row imagesAndText" ng-if="subsection.type === 'imagesAndText'">
-        <div class="col-xs-12 col-sm-5 col-md-6">
-            <img class="img-responsive" ng-repeat="image in subsection.images" ng-src="{{image}}" />
-        </div>
-        <div class="col-xs-12 col-sm-7 col-md-6">
-          <h3>
-            {{subsection.heading}}
-          </h3>
-          <div
-            ng-bind-html="subsection.content">
-          </div>
-        </div>
-      </div>
-
-
-      <!-- Image grid section -->
-      <div class="row imageGrid" ng-if="subsection.type === 'imageGrid'">
-        <div class="col-xs-12">
-          <h2 ng-if="subsection.heading">{{subsection.heading}}</h2>
-          <div
-              ng-bind-html="subsection.content">
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4" ng-repeat="image in subsection.images">
-            <img class="img-responsive" ng-src="{{image}}" />
-        </div>
-      </div>
-
-    </div>
-  </div>
 </div>
 
 <div class="container-fluid {{pageClass}}">
