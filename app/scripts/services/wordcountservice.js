@@ -9,9 +9,9 @@
 
 angular.module('zowberApp')
   .service('wordCountService', function () {
-  	this.getWordCount = function (words) {
-  		var arrayOfWords = words.split(" ");
+    this.getWordCount = function (words) {
+      var arrayOfWords = words.split(" ");
       return arrayOfWords.length;
-  	};
+    };
 
   });

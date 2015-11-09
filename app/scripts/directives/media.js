@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc directive
- * @name zowberApp.directive:blogHeader
+ * @name zowberApp.directive:media
  * @description
- * # blogHeader
+ * # media
  */
 angular.module('zowberApp')
-  .directive('blogHeader', function () {
+  .directive('media', function () {
     return {
-      template: '<div></div>',
+      templateUrl: 'views/media.html',
       restrict: 'E'
     };
   });

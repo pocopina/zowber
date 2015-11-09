@@ -1,0 +1,19 @@
+<nav ng-if="headerIsVisible" class="navbar navbar-default navbar-fixed-top animated" ng-class="{fadeIn: animate}">
+  <div class="container">
+    <div class="row">
+      <div class="{{pageColumnClass}}">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/#/">
+            <brand></brand>
+          </a>
+        </div>
+
+        <ul class="nav navbar-nav">
+          <li><a href="/#/">Portfolio</a></li>
+          <li><a href="/#/blog">Blog</a></li>
+        </ul>
+        <social-links></social-links>
+      </div>
+    </div>
+  </div>
+</nav>

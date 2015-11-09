@@ -9,13 +9,17 @@
  */
 angular.module('zowberApp')
   .controller('PortfolioCtrl',
-    function ($scope, $http) {
+    function ($scope, $http, portfolioService) {
 
       $scope.pageClass = 'page_portfolio';
-      $scope.assetUrlPrefix = "http://zowber-portfolio-assets.s3.amazonaws.com/portfolio-items";
+      $scope.pageColumnClass = 'col-xs-12 col-sm-10 col-sm-offset-1';
+      $scope.headerIsVisible = false;
+      $scope.assetUrlPrefix = 'http://zowber-portfolio-assets.s3.amazonaws.com/portfolio-items';
+      $scope.animate = true;
 
-      $http.get('/portfolioItems/portfolioItems.json').success(function (data) {
-        $scope.portfolioItems = data;
-      });
+      portfolioService.getPortfolioItems()
+        .then( function (response) {
+          $scope.portfolioItems = response.data;
+        });
 
     });

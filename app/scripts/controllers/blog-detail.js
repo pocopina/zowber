@@ -10,6 +10,10 @@
 angular.module('zowberApp')
   .controller('BlogDetailCtrl', function ($scope, $http, $routeParams, blogPostsService, wordCountService, readingTimeService) {
 
+    $scope.headerIsVisible = true;
+    $scope.pageColumnClass = 'col-xs-12 col-sm-10 col-sm-offset-1';
+    $scope.pageClass = 'page_blog_detail';
+
     blogPostsService.getPost($routeParams.ID)
       .then(function (response) {
         // get the post object

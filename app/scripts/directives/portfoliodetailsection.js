@@ -11,5 +11,5 @@ angular.module('zowberApp')
     return {
       templateUrl: 'views/portfoliodetailsection.html',
       restrict: 'E'
-      };
-    });
+    };
+  });
