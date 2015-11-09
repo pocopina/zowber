@@ -244,35 +244,50 @@ a.back-button {
   text-decoration: none;
   background-color: $brand-primary;
   border-radius: 50%;
-  i {
-    color: whiteSmoke;
-    display: block;
-    width: 100%;
-    height: 100%;
-    font-size: 24px;
-    line-height: 48px;
-  }
+}
+
+a.back-button i {
+  color: whiteSmoke;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  line-height: 48px;
 }
 
 .portfolio-detail-header {
-  h1 {
-    margin-top: 32px;
-  }
+  margin-top: 28px;
+}
+.portfolio-detail-header h1 {
+  margin-top: 48px;
+}
+
+.media-hero {
+  margin-top: 72px;
+}
+.media-hero img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.section,
+.subsection{
+  margin-top: 72px;
+}
+
+.section h2 {
+  margin-top: 0;
 }
 
 .footer {
-  margin-top: 96px;
-  p {
+  margin-top: 72px;
+}
+
+.footer p {
     padding: 32px 0;
     margin: 0;
     text-align: center;
-  }
-}
-
-// Page specific styles
-
-.page_portfolio .footer {
-  background-color: $section-background-alt;
 }
 
 .page_portfolio-detail {
@@ -287,10 +302,12 @@ a.back-button {
 }
 
 .imageGrid {
-  margin-top: 0;
-  img {
-    margin-top: 64px;
-  }
+  margin-top: 72px;
+}
+
+.imageGrid img {
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .textOnly {
@@ -321,15 +338,28 @@ a.back-button {
   .media__image {
     max-width: 100%;
   }
+  a.back-button {
+    float: right;
+  }
   img + img {
     margin-top: 32px;
   }
+  .portfolio-detail-header {
+    margin-top: 48px;
+  }
+  .portfolio-detail-header h1 {
+    margin-top: 5px;
+  }
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .media__content h3 {
     margin-top: 20px;
+  }
+  .imagesAndText h3:first-of-type {
+    margin-top: 0;
   }
 }
 
@@ -363,7 +393,6 @@ a.back-button {
 }
 
 .fadeInDown {
-  -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
 
@@ -388,6 +417,5 @@ a.back-button {
 }
 
 .fadeIn {
-  -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }

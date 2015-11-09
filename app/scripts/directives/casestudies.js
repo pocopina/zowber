@@ -9,7 +9,7 @@
 angular.module('zowberApp')
   .directive('caseStudies', function () {
     return {
-      templateUrl: 'views/casestudies.html',
+      templateUrl: 'views/partials/casestudies.html',
       restrict: 'E'
     };
   });

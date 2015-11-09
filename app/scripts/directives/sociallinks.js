@@ -9,7 +9,7 @@
 angular.module('zowberApp')
   .directive('socialLinks', function () {
     return {
-      templateUrl: 'views/sociallinks.html',
+      templateUrl: 'views/partials/sociallinks.html',
       restrict: 'E'
     };
   });

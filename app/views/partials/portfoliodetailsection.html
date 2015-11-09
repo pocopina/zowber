@@ -4,7 +4,7 @@
 
     <h2 ng-if="section.heading">{{section.heading}}</h2>
 
-    <div ng-repeat="subsection in section.sections">
+    <div ng-repeat="subsection in section.sections" class="subsection">
 
       <!-- Text only section -->
       <div class="row textOnly" ng-if="subsection.type === 'textOnly'">
@@ -53,17 +53,26 @@
 
         <div class="col-xs-12">
 
-          <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-            <h2 ng-if="subsection.heading">{{subsection.heading}}</h2>
-            <div ng-bind-html="subsection.content"></div>
+          <div class="row">
+
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+              <h2 ng-if="subsection.heading">{{subsection.heading}}</h2>
+
+              <div ng-bind-html="subsection.content"></div>
+            </div>
+
           </div>
 
         </div>
 
         <div class="col-xs-12 col-sm-10 col-sm-offset-1">
 
-          <div class="col-xs-12 col-sm-6 col-md-4" ng-repeat="image in subsection.images">
-            <img class="img-responsive" ng-src="{{assetUrlPrefix}}{{image}}"/>
+          <div class="row">
+
+            <div class="col-xs-12 col-lg-6" ng-repeat="image in subsection.images">
+              <img class="img-responsive" ng-src="{{assetUrlPrefix}}{{image}}"/>
+            </div>
+
           </div>
 
         </div>

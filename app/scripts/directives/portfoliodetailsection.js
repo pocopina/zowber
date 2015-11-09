@@ -9,7 +9,7 @@
 angular.module('zowberApp')
   .directive('portfolioDetailSection', function () {
     return {
-      templateUrl: 'views/portfoliodetailsection.html',
+      templateUrl: 'views/partials/portfoliodetailsection.html',
       restrict: 'E'
     };
   });

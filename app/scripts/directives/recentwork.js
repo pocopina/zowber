@@ -9,7 +9,7 @@
 angular.module('zowberApp')
   .directive('recentWork', function () {
     return {
-      templateUrl: 'views/recentwork.html',
+      templateUrl: 'views/partials/recentwork.html',
       restrict: 'E'
     };
   });
