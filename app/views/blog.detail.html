@@ -1,21 +1,27 @@
-<header></header>
+<div class="{{ pageClass }}">
 
-<div class="container {{ pageClass }}">
+  <header ng-if="headerIsVisible"></header>
 
-  <div class="row section">
+  <div class="container">
 
-    <div class="col-xs-12 col-sm-9 col-sm-offset-2">
-      <h1 ng-bind-html="post.title"></h1>
+    <div class="row">
 
-      <span class="reading-time text-muted"><em>Reading time: {{readingTime}}</em></span>
+      <div class="{{pageColumnClass}}">
+        <div class="post">
+          <h1 ng-bind-html="post.title"></h1>
 
-      <div ng-bind-html="post.content"></div>
+          <span class="reading-time text-muted">Reading time: {{readingTime}}</span>
 
-      <p>{{post.author.first_name}}</p>
+          <div ng-bind-html="post.content" class="post__content"></div>
+
+          <p>{{post.author.first_name}}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row footer section">
+      <p class="small">By Zowber.</p>
     </div>
   </div>
 
-  <div class="row footer section">
-    <p class="small">By Zowber.</p>
-  </div>
 </div>

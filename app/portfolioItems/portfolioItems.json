@@ -103,5 +103,38 @@
         "name": "Re-platforming"
       }
     ]
+  },
+  {
+    "id": 15,
+    "type": "work",
+    "name": "Modular Home Insurance UX",
+    "description": "A rethinking of how Home Insurance policies are sold online.",
+    "heroImgUrl": "/15/hero.png",
+    "labels": [
+      {
+        "name": "Client-side UX lead"
+      },
+      {
+        "name": "Lab testing"
+      },
+      {
+        "name": "Innovation"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "type": "work",
+    "name": "Responsive Travel Insurance UX",
+    "description": "Searching for an ideal customer journey and responsive UI with iterative HTML prototyping.",
+    "heroImgUrl": "/16/hero.png",
+    "labels": [
+      {
+        "name": "Responsive"
+      },
+      {
+        "name": "HTML/CSS/JS"
+      }
+    ]
   }
 ]

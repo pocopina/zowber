@@ -6,17 +6,13 @@ $icon-font-path: "bower_components/bootstrap-sass-official/assets/fonts/bootstra
 
 // Type
 $font-family-sans-serif: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$headings-font-family:   "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$headings-font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 
 // Color
 $brand-primary: #9013fe !default;
 $section-background-alt: whiteSmoke !default;
 $keyline-gray: #bbb !default;
 $fa-font-path: "../bower_components/fontawesome/fonts";
-
-//== Grid system
-//
-//## Define your custom responsive grid.
 
 //== Navbar
 //
@@ -26,6 +22,8 @@ $fa-font-path: "../bower_components/fontawesome/fonts";
 $navbar-height: 96px !default;
 $navbar-default-bg: #ffffff !default;
 
+//** Point at which the navbar becomes uncollapsed.
+$grid-float-breakpoint: 480px !default; //$screen-sm-min
 
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
@@ -51,7 +49,7 @@ p.lead {
 }
 
 strong {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 img {
@@ -59,10 +57,83 @@ img {
   border-radius: 3px;
 }
 
-//.page_portfolio-detail,
-.page_blog,
-.page_blog_detail {
-  padding-top: 160px;
+.page_blog .navbar-nav > li > a,
+.page_blog_detail .navbar-nav > li > a {
+  color: $brand-primary;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-header {
+  float: none;
+}
+
+.navbar-brand {
+  margin: 0 auto !important;
+  padding: 0;
+  float: none;
+}
+
+.site-nav {
+  margin-top: 72px;
+}
+
+.site-nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+header .site-nav {
+  margin-top: 36px;
+  float: none;
+  clear: left;
+}
+
+social-links ul {
+  margin-top: 72px;
+  margin-bottom: 72px;
+  display: flex;
+  justify-content: space-between;
+}
+
+social-links li {
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  background-color: $brand-primary;
+  border-radius: 50%;
+}
+
+social-links li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-size: 36px;
+  line-height: 64px;
+  color: white;
+}
+
+social-links li a:hover {
+  color: white;
+}
+
+header social-links ul {
+  margin-top: 36px;
+  margin-bottom: 47px;
+}
+
+header social-links li {
+  width: 36px;
+  height: 36px;
+  margin-left: 15px;
+}
+
+header social-links li a {
+  display: block;
+  font-size: 18px;
+  line-height: 36px;
 }
 
 // Custom components
@@ -96,16 +167,16 @@ brand {
 }
 
 header brand {
-  margin: 16px auto 0 auto;
-  width: 64px;
-  height: 64px;
+  margin-top: 47px;
+  width: 72px;
+  height: 72px;
 }
 
 header .brand__content h1 {
   font-size: 18px;
 }
 
-header .brand-content h2 {
+header .brand__content h2 {
   display: none;
 }
 
@@ -117,64 +188,21 @@ header .brand-content h2 {
   margin-bottom: 0;
 }
 
-.site-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  .nav-pills {
-    li {
-      margin: 0 15px;
-    }
-  }
+.text-hero h1 {
+  margin-top: 0;
 }
 
-social-links ul {
-  margin-top: 72px;
+.page_portfolio .text-hero {
+
+}
+
+.page_portfolio .text-hero p.lead:last-of-type {
   margin-bottom: 72px;
-  display: flex;
-  justify-content: space-between;
-}
-
-social-links li {
-  width: 64px;
-  height: 64px;
-  text-align: center;
-  background-color: $brand-primary;
-  border-radius: 50%;
-}
-
-social-links li a {
-  width: 100%;
-  height: 100%;
-  display: block;
-  font-size: 36px;
-  line-height: 64px;
-  color: white;
-}
-social-links li a:hover {
-  color: white;
-}
-
-header social-links ul {
-  margin-top: 30px;
-  margin-bottom: 0px;
-  float: right;
-}
-
-header social-links li {
-  width: 36px;
-  height: 36px;
-  margin-left: 15px;
-}
-
-header social-links li a {
-  display: block;
-  font-size: 18px;
-  line-height: 36px;
 }
 
 .this--background-alt {
   background-color: $section-background-alt;
+  border-bottom: 1px solid #efefef;
 }
 
 case-studies media:last-of-type {
@@ -258,6 +286,7 @@ a.back-button i {
 .portfolio-detail-header {
   margin-top: 28px;
 }
+
 .portfolio-detail-header h1 {
   margin-top: 48px;
 }
@@ -265,14 +294,16 @@ a.back-button i {
 .media-hero {
   margin-top: 72px;
 }
-.media-hero img {
+
+.media-hero img,
+.media-hero video {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
 .section,
-.subsection{
+.subsection {
   margin-top: 72px;
 }
 
@@ -285,9 +316,9 @@ a.back-button i {
 }
 
 .footer p {
-    padding: 32px 0;
-    margin: 0;
-    text-align: center;
+  padding: 32px 0;
+  margin: 0;
+  text-align: center;
 }
 
 .page_portfolio-detail {
@@ -313,12 +344,37 @@ a.back-button i {
 .textOnly {
 }
 
-.imagesAndText {
-  img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
+.imagesAndText img,
+.imageGrid img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.posts {
+
+}
+
+.post {
+  margin-top: 72px;
+}
+
+.post h1 {
+  text-align: center;
+}
+
+.post .more-link {
+  display: none;
+}
+
+.post__content {
+  margin-top: 72px;
+}
+
+.reading-time {
+  margin-top: 48px;
+  display: block;
+  text-align: center;
 }
 
 /*==========  Mobile First Method  ==========*/
@@ -332,6 +388,42 @@ a.back-button i {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
+
+  header .navbar-header {
+    float: none;
+  }
+
+  header .navbar-brand {
+    margin-left: -15px;
+    float: left;
+  }
+
+  header brand {
+    margin-top: 12px;
+    width: 72px;
+    height: 72px;
+  }
+
+  header .site-nav {
+    margin-top: 27px;
+    margin-left: 30px;
+    float: left;
+    clear: none;
+  }
+  
+
+  header social-links ul {
+    margin-top: 29px;
+    margin-bottom: 0px;
+    float: right;
+  }
+
+  header social-links li a {
+    display: block;
+    font-size: 18px;
+    line-height: 36px;
+  }
+
   .media__content h3 {
     margin-top: 6px;
   }
@@ -370,14 +462,14 @@ a.back-button i {
 
 // Animation
 .animated {
-  animation-duration: .5s;
+  animation-duration: 1s;
   animation-fill-mode: both;
   animation-timing-function: ease-out;
 }
 
 .animated.fadeIn {
   animation-duration: 1.5s;
-  animation-delay: .25s;
+  animation-delay: .5s;
 }
 
 @keyframes fadeInDown {

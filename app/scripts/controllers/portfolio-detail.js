@@ -26,7 +26,7 @@ angular.module('zowberApp')
             history.back();
           }
           else {
-            $location.path("/");
+            $location.path("/#/portfolio");
           }
       };
 
