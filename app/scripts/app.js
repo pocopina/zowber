@@ -26,8 +26,7 @@ angular
 
     $routeProvider
       .when('/', {
-        templateUrl: 'views/home.html',
-        controller: 'HomeCtrl'
+        redirectTo: '/portfolio'
       })
       .when('/portfolio', {
         templateUrl: 'views/portfolio.html',
@@ -51,6 +50,6 @@ angular
   .run(function($rootScope) {
     $rootScope
       .$on('$routeChangeSuccess', function (e, next, cur) {
-        $rootScope.referredFromHome = cur && cur.loadedTemplateUrl === 'views/home.html';
+        $rootScope.referredFromHome = cur && cur.loadedTemplateUrl === 'views/portfolio.html';
       });
     });

@@ -8,6 +8,9 @@ $icon-font-path: "bower_components/bootstrap-sass-official/assets/fonts/bootstra
 $font-family-sans-serif: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $headings-font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 
+$font-size-base:          16px !default;
+$line-height-base:        1.75 !default; // 28/16
+
 // Color
 $brand-primary: #9013fe !default;
 $section-background-alt: whiteSmoke !default;
@@ -30,6 +33,93 @@ $grid-float-breakpoint: 480px !default; //$screen-sm-min
 @import "fontawesome/scss/font-awesome.scss";
 // endbower
 
+//
+// Typography
+// --------------------------------------------------
+
+
+// Headings
+// -------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
+  color: $headings-color;
+
+  small,
+  .small {
+    font-weight: normal;
+    line-height: 1;
+    color: $headings-small-color;
+  }
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  margin-top: ($line-height-computed * 2);
+  margin-bottom: ($line-height-computed);
+
+  small,
+  .small {
+    font-size: 65%;
+  }
+}
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: ($line-height-computed * 2);
+  margin-bottom: ($line-height-computed);
+
+  small,
+  .small {
+    font-size: 75%;
+  }
+}
+
+h1, .h1 { font-size: $font-size-h1; }
+h2, .h2 { font-size: $font-size-h2; }
+h3, .h3 { font-size: $font-size-h3; }
+h4, .h4 { font-size: $font-size-h4; }
+h5, .h5 { font-size: $font-size-h5; }
+h6, .h6 { font-size: $font-size-h6; }
+
+
+// Body text
+// -------------------------
+
+p {
+  margin: 0 0 ($line-height-computed);
+}
+
+.lead {
+  margin-bottom: $line-height-computed;
+  font-size: floor(($font-size-base * 1.15));
+  font-weight: 400;
+  line-height: 1.4;
+
+  @media (min-width: $screen-sm-min) {
+    font-size: ($font-size-base * 1.5);
+  }
+}
+
+// Lists
+// -------------------------
+
+// Unordered and Ordered lists
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: ($line-height-computed);
+  ul,
+  ol {
+    margin-bottom: 0;
+  }
+}
+
+
 // My Styles
 
 // Type
@@ -43,9 +133,12 @@ h2 {
   text-align: center;
 }
 
-p,
-p.lead {
-  font-weight: 400;
+.page_blog h2 {
+  text-align: left;
+}
+
+p {
+  font-weight: 300;
 }
 
 strong {
@@ -73,22 +166,14 @@ img {
 .navbar-brand {
   margin: 0 auto !important;
   padding: 0;
-  float: none;
-}
-
-.site-nav {
-  margin-top: 72px;
-}
-
-.site-nav ul {
-  display: flex;
-  justify-content: center;
+  float: left;
 }
 
 header .site-nav {
-  margin-top: 36px;
-  float: none;
-  clear: left;
+  margin-top: 24px;
+  margin-left: 30px;
+  float: right;
+  clear: none;
 }
 
 social-links ul {
@@ -119,9 +204,12 @@ social-links li a:hover {
   color: white;
 }
 
+header social-links {
+ display:none;
+}
+
 header social-links ul {
-  margin-top: 36px;
-  margin-bottom: 47px;
+  margin-top: 24px;
 }
 
 header social-links li {
@@ -141,7 +229,6 @@ brand {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 64px auto 0 auto;
   border-radius: 50%;
   width: 300px;
   height: 300px;
@@ -167,13 +254,13 @@ brand {
 }
 
 header brand {
-  margin-top: 47px;
-  width: 72px;
-  height: 72px;
+  margin-top: 24px;
+  width: 48px;
+  height: 48px;
 }
 
 header .brand__content h1 {
-  font-size: 18px;
+  font-size: 13px;
 }
 
 header .brand__content h2 {
@@ -192,12 +279,16 @@ header .brand__content h2 {
   margin-top: 0;
 }
 
-.page_portfolio .text-hero {
-
+.page_portfolio .text-hero p.lead:last-of-type,
+.page_blog .text-hero p.lead:last-of-type {
+  margin-bottom: 0px;
 }
 
-.page_portfolio .text-hero p.lead:last-of-type {
-  margin-bottom: 72px;
+.page_portfolio .text-hero {
+  padding-bottom: 72px;
+}
+.page_blog .text-hero {
+  padding-bottom: 44px;
 }
 
 .this--background-alt {
@@ -242,7 +333,7 @@ recent-work media {
 }
 
 .media__content h3 {
-  margin-top: 20px;
+  margin-top: ($line-height-computed);
 }
 
 .labels {
@@ -341,7 +432,8 @@ a.back-button i {
   margin-bottom: 24px;
 }
 
-.textOnly {
+.textOnly h3 {
+  margin-top: 0;
 }
 
 .imagesAndText img,
@@ -355,6 +447,10 @@ a.back-button i {
 
 }
 
+.posts .badge {
+  margin-top: 12px;
+}
+
 .post {
   margin-top: 72px;
 }
@@ -362,6 +458,14 @@ a.back-button i {
 .post h1 {
   text-align: center;
 }
+
+.post ul {
+  font-weight: 300;
+}
+.post li {
+  margin-bottom: ($line-height-computed/2);
+}
+
 
 .post .more-link {
   display: none;
@@ -374,6 +478,7 @@ a.back-button i {
 .reading-time {
   margin-top: 48px;
   display: block;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -398,19 +503,13 @@ a.back-button i {
     float: left;
   }
 
-  header brand {
-    margin-top: 12px;
-    width: 72px;
-    height: 72px;
+  header .site-nav {
+    float: left;
   }
 
-  header .site-nav {
-    margin-top: 27px;
-    margin-left: 30px;
-    float: left;
-    clear: none;
+  header social-links {
+    display: block;
   }
-  
 
   header social-links ul {
     margin-top: 29px;
@@ -440,7 +539,10 @@ a.back-button i {
     margin-top: 48px;
   }
   .portfolio-detail-header h1 {
-    margin-top: 5px;
+    margin-top: 2px;
+  }
+  .post ul {
+    margin-right: 40px;
   }
 
 }
