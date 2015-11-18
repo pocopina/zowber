@@ -1,0 +1,21 @@
+<!-- The portfolio detail intro has an image above the lead text for portfolioItems with type caseStudy -->
+<div class="container-fluid">
+  <div class="row" >
+
+    <div ng-if="item.type === 'caseStudy'" class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+      <div class="media-hero">
+        <img ng-if="!item.mp4Hero" ng-src="{{assetUrlPrefix}}{{item.heroImgUrl}}" class="img-responsive" />
+        <video ng-if="item.mp4Hero" ng-src="http://zowber-portfolio-assets.s3.amazonaws.com/portfolio-items/4/hero.mp4" class="img-responsive" autoplay controls loop>
+          Your browser does not support the <code>video</code> element. Upgrade all the things!
+        </video>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+      <div class="text-hero"
+        ng-bind-html="item.lead">
+      </div>
+    </div>
+
+  </div>
+</div>

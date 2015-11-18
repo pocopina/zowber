@@ -11,7 +11,7 @@ angular.module('zowberApp')
   .controller('BlogCtrl', function ($scope, $http, blogDetailsService, blogPostsService) {
 
     $scope.pageClass = 'page_blog';
-    $scope.pageColumnClass = 'col-xs-12 col-sm-8 col-sm-offset-2';
+    $scope.pageColumnClass = 'col-xs-12 col-sm-10 col-sm-offset-1';
     $scope.headerIsVisible = true;
 
 
