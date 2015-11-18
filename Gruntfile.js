@@ -38,7 +38,7 @@ module.exports = function (grunt) {
         tasks: ['wiredep']
       },
       js: {
-        files: ['<%= yeoman.app %>/{scripts,components}/{,*/}*.js'],
+        files: ['<%= yeoman.app %>/scripts/{,*/}*.js'],
         tasks: ['newer:jshint:all'],
         options: {
           livereload: '<%= connect.options.livereload %>'
@@ -49,7 +49,7 @@ module.exports = function (grunt) {
       //  tasks: ['newer:jshint:test', 'karma']
       //},
       compass: {
-        files: ['<%= yeoman.app %>/{styles,components}/{,*/}*.{scss,sass}'],
+        files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
         tasks: ['compass:server', 'autoprefixer:server']
       },
       gruntfile: {
@@ -63,7 +63,7 @@ module.exports = function (grunt) {
           '<%= yeoman.app %>/{,*/}*.html',
           '.tmp/styles/{,*/}*.css',
           '<%= yeoman.app %>/images/**/*.{png,jpg,jpeg,gif,webp,svg}',
-          '<%= yeoman.app %>/components/**/*.html'
+          'portfolioItems/*.json'
         ]
       }
     },
@@ -88,6 +88,10 @@ module.exports = function (grunt) {
               ),
               connect().use(
                 '/app/styles',
+                connect.static('./app/styles')
+              ),
+              connect().use(
+                '/app/portfolioItems',
                 connect.static('./app/styles')
               ),
               connect.static(appConfig.app)
@@ -128,7 +132,7 @@ module.exports = function (grunt) {
       all: {
         src: [
           'Gruntfile.js',
-          '<%= yeoman.app %>/{scripts,components}/{,*/}*.js'
+          '<%= yeoman.app %>/scripts/{,*/}*.js'
         ]
       }//,
       //test: {
@@ -203,7 +207,7 @@ module.exports = function (grunt) {
           }
       },*/
       sass: {
-        src: ['<%= yeoman.app %>/{styles,components}/{,*/}*.{scss,sass}'],
+        src: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
         ignorePath: /(\.\.\/){1,2}bower_components\//
       }
     },

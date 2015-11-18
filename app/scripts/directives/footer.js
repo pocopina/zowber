@@ -9,7 +9,7 @@
 angular.module('zowberApp')
   .directive('footer', function () {
     return {
-      templateUrl: 'components/footer/footer.html',
+      templateUrl: 'views/partials/footer.html',
       restrict: 'E'
     };
   });

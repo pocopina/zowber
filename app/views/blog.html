@@ -2,6 +2,16 @@
 
   <header></header>
 
+  <div class="this--background-alt">
+    <div class="container">
+      <div class="row">
+        <div class="text-hero {{pageColumnClass}}">
+          <h1>A blog about designing interactive experiences</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="container">
     <div class="row">
       <div class="{{pageColumnClass}}">
@@ -9,7 +19,8 @@
         <div ng-if="posts.length" class="posts">
 
           <div ng-repeat="post in posts" class="post">
-            <a ng-href="#/blog/{{post.ID}}"><h2 ng-bind-html="post.title"></h2></a>
+            <span ng-if="$first" class="badge pull-right">New!</span>
+            <a ng-href="#/blog/{{post.ID}}"><h2 ng-bind-html="post.title" ></h2></a>
             <span ng-bind-html="post.excerpt"></span>
           </div>
 
@@ -23,5 +34,7 @@
     </div>
   </div>
 
-  <footer></footer>
+  <div class="row footer section">
+    <p class="small">By Zowber.</p>
+  </div>
 </div>

@@ -1,19 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,500,500italic,600,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:600,700);
 
 // Bootstrap Variable Overrides
 $icon-font-path: "bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 
 // Type
 $font-family-sans-serif: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-//$headings-font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, sans-serif !default;
-$headings-font-family: $font-family-sans-serif;
+$headings-font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 
-$font-size-base: 16px !default;
-$line-height-base: 1.75 !default; // 28/16
+$font-size-base:          16px !default;
+$line-height-base:        1.75 !default; // 28/16
 
 // Color
-$brand-primary: #2C3E50 !default;
+$brand-primary: #9013fe !default;
 $section-background-alt: whiteSmoke !default;
 $keyline-gray: #bbb !default;
 $fa-font-path: "../bower_components/fontawesome/fonts";
@@ -37,6 +36,7 @@ $grid-float-breakpoint: 480px !default; //$screen-sm-min
 //
 // Typography
 // --------------------------------------------------
+
 
 // Headings
 // -------------------------
@@ -67,7 +67,6 @@ h3, .h3 {
     font-size: 65%;
   }
 }
-
 h4, .h4,
 h5, .h5,
 h6, .h6 {
@@ -80,29 +79,13 @@ h6, .h6 {
   }
 }
 
-h1, .h1 {
-  font-size: $font-size-h1;
-}
+h1, .h1 { font-size: $font-size-h1; }
+h2, .h2 { font-size: $font-size-h2; }
+h3, .h3 { font-size: $font-size-h3; }
+h4, .h4 { font-size: $font-size-h4; }
+h5, .h5 { font-size: $font-size-h5; }
+h6, .h6 { font-size: $font-size-h6; }
 
-h2, .h2 {
-  font-size: $font-size-h2;
-}
-
-h3, .h3 {
-  font-size: $font-size-h3;
-}
-
-h4, .h4 {
-  font-size: $font-size-h4;
-}
-
-h5, .h5 {
-  font-size: $font-size-h5;
-}
-
-h6, .h6 {
-  font-size: $font-size-h6;
-}
 
 // Body text
 // -------------------------
@@ -136,6 +119,7 @@ ol {
   }
 }
 
+
 // My Styles
 
 // Type
@@ -154,11 +138,11 @@ h2 {
 }
 
 p {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 strong {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 img {
@@ -221,7 +205,7 @@ social-links li a:hover {
 }
 
 header social-links {
-  display: none;
+ display:none;
 }
 
 header social-links ul {
@@ -238,6 +222,35 @@ header social-links li a {
   display: block;
   font-size: 18px;
   line-height: 36px;
+}
+
+// Custom components
+brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background-color: $brand-primary;
+}
+
+.brand__content {
+  text-align: center;
+  color: white;
+}
+
+.brand__content h1 {
+  font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 72px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.brand__content h2 {
+  font-size: 24px;
+  margin-top: 8px;
+  margin-bottom: 0;
 }
 
 header brand {
@@ -271,21 +284,15 @@ header .brand__content h2 {
   margin-bottom: 0px;
 }
 
-.page_portfolio .text-hero h1 {
-  font-family: $font-family-sans-serif;
-}
-
 .page_portfolio .text-hero {
   padding-bottom: 72px;
-  color: rgba(255, 255, 255, 200);
 }
-
 .page_blog .text-hero {
   padding-bottom: 44px;
 }
 
 .this--background-alt {
-  background-color: lighten($brand-primary, 10%);
+  background-color: $section-background-alt;
   border-bottom: 1px solid #efefef;
 }
 
@@ -452,17 +459,13 @@ a.back-button i {
   text-align: center;
 }
 
-.post h1 {
-  text-align: center;
-}
-
 .post ul {
   font-weight: 300;
 }
-
 .post li {
   margin-bottom: ($line-height-computed/2);
 }
+
 
 .post .more-link {
   display: none;
@@ -528,7 +531,6 @@ a.back-button i {
   }
   a.back-button {
     float: right;
-    margin-right: -15px;
   }
   img + img {
     margin-top: 32px;
@@ -548,7 +550,7 @@ a.back-button i {
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .media__content h3 {
-    margin-top: 4px;
+    margin-top: 20px;
   }
   .imagesAndText h3:first-of-type {
     margin-top: 0;
@@ -557,9 +559,7 @@ a.back-button i {
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
-  .media__content h3 {
-    margin-top: 16px;
-  }
+
 }
 
 // Animation
