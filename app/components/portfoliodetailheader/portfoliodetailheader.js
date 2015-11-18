@@ -9,7 +9,7 @@
 angular.module('zowberApp')
   .directive('portfolioDetailHeader', function () {
     return {
-      templateUrl: 'views/partials/portfoliodetailheader.html',
+      templateUrl: 'components/portfoliodetailheader/portfoliodetailheader.html',
       restrict: 'E'
     };
   });

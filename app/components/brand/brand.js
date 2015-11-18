@@ -9,7 +9,7 @@
 angular.module('zowberApp')
   .directive('brand', function () {
     return {
-      templateUrl: 'views/partials/brand.html',
+      templateUrl: 'components/brand/brand.html',
       restrict: 'E'
     };
   });
