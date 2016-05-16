@@ -10,7 +10,7 @@ angular.module('zowberApp')
   .service('blogDetailsService', function ($http) {
 
     this.getBlogDetails = function () {
-      return $http.get('http://zowber.com/wordpress/wp-json/');
+      return $http.get('http://portfolio.zowber.com/wordpress/wp-json/');
     };
 
   });

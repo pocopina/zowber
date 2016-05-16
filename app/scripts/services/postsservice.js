@@ -10,12 +10,12 @@ angular.module('zowberApp')
   .service('blogPostsService', function ($http) {
 
     this.getPosts = function () {
-      return $http.get('http://zowber.com/wordpress/wp-json/posts');
+      return $http.get('http://portfolio.zowber.com/wordpress/wp-json/posts');
 
     };
 
     this.getPost = function (ID) {
-      return $http.get('http://zowber.com/wordpress/wp-json/posts/' + ID);
+      return $http.get('http://portfolio.zowber.com/wordpress/wp-json/posts/' + ID);
     };
 
   });
