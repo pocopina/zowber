@@ -19,7 +19,6 @@
     "grunt-contrib-watch": "^1.0.1",
     "grunt-filerev": "^2.1.2",
     "grunt-google-cdn": "^0.4.3",
-    "grunt-karma": "*",
     "grunt-newer": "^1.1.0",
     "grunt-ng-annotate": "^3.0.0",
     "grunt-svgmin": "^5.0.0",
@@ -27,8 +26,6 @@
     "grunt-wiredep": "^3.0.1",
     "jit-grunt": "^0.10.0",
     "jshint-stylish": "^2.2.1",
-    "karma-jasmine": "*",
-    "karma-phantomjs-launcher": "*",
     "serve-static": "^1.13.2",
     "time-grunt": "^1.0.0"
   },
