@@ -20,15 +20,13 @@
 
 <!-- build:js(./) scripts/vendor.js -->
 <!-- bower:js -->
-<script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/angular-animate/angular-animate.js"></script>
 <script src="bower_components/angular-cookies/angular-cookies.js"></script>
 <script src="bower_components/angular-resource/angular-resource.js"></script>
 <script src="bower_components/angular-route/angular-route.js"></script>
 <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-<script src="bower_components/angulartics/src/angulartics.js"></script>
-<script src="bower_components/angulartics/src/angulartics-piwik.js"></script>
 <!-- endbower -->
 <!-- endbuild -->
 
@@ -57,24 +55,5 @@
 <script src="scripts/controllers/home.js"></script>
 <!-- endbuild -->
 
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  // _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function () {
-    var u = "//piwik.zowber.com/";
-    _paq.push(['setTrackerUrl', u + 'piwik.php']);
-    _paq.push(['setSiteId', 2]);
-    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-    g.type = 'text/javascript';
-    g.async = true;
-    g.defer = true;
-    g.src = u + 'piwik.js';
-    s.parentNode.insertBefore(g, s);
-  })();
-</script>
-<noscript><p><img src="//piwik.zowber.com/piwik.php?idsite=2" alt="Piwik Beacon"/></p></noscript>
-<!-- End Piwik Code -->
 </body>
 </html>
